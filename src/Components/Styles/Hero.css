@@ -1,0 +1,103 @@
+h1 {
+    font-size: 80px;
+    padding-left: 4rem;
+    justify-content: center;
+    text-shadow: -4px 4px 6px;
+    -webkit-text-stroke: 0.4px black;
+}
+h2 {
+    font-size: 24px;
+    padding: 2rem 2rem 2rem 4rem;
+    color: #707070;
+    
+
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  
+}
+.hero {
+    padding-top: 11rem;
+    max-width: 650px;
+    height: 100vh;
+    display: inline-block;
+}
+.hero-images {
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float:right;
+    height:fit-content;
+}
+.image1 {
+    transform: rotate(-40deg);
+    /* margin-left: 60vh; */
+    /* padding-bottom: 2rem; */
+    
+}
+
+.image2 {
+    transform: rotate(40deg);
+    /* margin-left: 80vh; */
+}
+.btn-checkoffer {
+    padding-left: 2rem 2rem 2rem 4rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    background: #CD999D;
+    margin: 1rem 1rem 1rem 4rem;
+    width: 150px;
+    height: 50px;
+    color: #b0414b;
+}
+
+.btn-checkoffer:hover {
+    
+    transition: all 0.3s easy-out;
+    background: #b0414b;
+    color: #ffff;
+    transition: 250ms;
+    transform: scale(1.05);
+}
+.alg_mouse_home .alg_mouse_home_arrow {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    margin: 0 auto;
+}
+
+@keyframes bounce {
+    0%,20%,50%,80%,100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(15px);
+    }
+
+    60% {
+        transform: translateY(5px);
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+
+.image1{ 
+    margin-left: 10vh;
+    margin-top: 4rem;
+}
+
+.image2{
+    margin-left: 10vh;
+    margin-top: 3rem;
+}
+
+}
