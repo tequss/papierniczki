@@ -6,6 +6,7 @@ function Cards() {
   return (
     <div className='cards'>
       <div className='cards__container'>
+        <h2 style={{color: "#434343"}}>Aktualna oferta</h2>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardsItem

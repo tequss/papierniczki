@@ -5,12 +5,15 @@
 h1 {
     font-size: 80px;
     padding-left: 4rem;
-    justify-content: center;
     text-shadow: -4px 4px 6px;
     -webkit-text-stroke: 0.4px black;
 }
 
-
+h2 {
+    font-size: 60px;
+    padding-left: 4rem;
+    text-shadow: -4px 4px 6px;
+}
 h3 {
     font-size: 24px;
     padding: 2rem 2rem 2rem 4rem;
@@ -26,7 +29,9 @@ main {
 }
 .section3 {
     background-color: #e6e4e1;
-    
+}
+.section4 {
+    background-color: #fff;
 }
 .section5 {
     background-color: #e6e4e1;
@@ -115,11 +120,10 @@ main {
     }
 }
 
-@media screen and (max-width: 960px) {
-    .hero{
-        flex-direction: column;
+@media screen and (max-width: 1040px) {
+    .hero-text {
+        max-width: 100%;
     }
-    
     .image1 {
         /* transform: rotate(-40deg);
         position:static; */

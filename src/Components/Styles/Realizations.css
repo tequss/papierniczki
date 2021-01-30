@@ -2,16 +2,23 @@
     height: 100vh;
     display: flex;
     flex-direction: row;
-    /* align-items: center; */
+    align-items: center;
     width: 100%;
     overflow-x: hidden;
     max-width: 1640px;  
-    justify-content: center;  
+    /* justify-content: center;   */
     flex-wrap: wrap;
+    
     
 }
 
 .offer-text{
     margin-top: 50px;
-    justify-content: center;
+    justify-content: start;
+
+    margin-left: 30px ;
+}
+
+h2 {
+    font-size: 40px;
 }

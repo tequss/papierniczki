@@ -10,8 +10,8 @@ class Realizations extends Component {
         return (
                   <div className = "offer-container">
                     <div className = "offer-text">
-                    <h1 style={{color: "#434343"}}>Nasze</h1>
-                    <h1 style={{color: "#CD999D"}}>Realizacje</h1>
+                    <h2 style={{color: "#434343"}}>Nasze</h2>
+                    <h2 style={{color: "#CD999D"}}>Realizacje</h2>
                     </div>
                 </div>
                 
