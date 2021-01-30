@@ -2,23 +2,28 @@
 
 export const MenuItems = [
     {
+        title: 'Strona główna',
+        url: 'hero-section',
+        cName: 'nav-links'
+    },
+    {
         title: 'Aktualna oferta',
-        url: '/',
+        url: 'section2',
         cName: 'nav-links'
     },
     {
         title: 'Realizacje',
-        url: '/aboutme',
+        url: 'section3',
         cName: 'nav-links'
     },
     {
         title: 'Zamówienia',
-        url: "/projects",
+        url: "section4",
         cName: 'nav-links'
     },
     {
         title: 'Kontakt',
-        url: "/contactme",
+        url: "section5",
         cName: 'nav-links'
     },
 

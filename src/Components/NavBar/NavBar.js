@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { MenuItems } from './MenuItems';
 import './NavBar.css';
-import { Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from "react-scroll";
+import Hero from '../Pages/Hero';
 
 class Navbar extends Component {
     state = { clicked: false }
@@ -26,7 +27,7 @@ class Navbar extends Component {
                         {MenuItems.map((item, index) => {
                             return (
                                 <li key={index}>
-                                    <Link className={item.cName} to={item.url}>
+                                    <Link onClick={this.handleClick} smooth={true} className={item.cName} to={item.url}>
                                         {item.title}
                                     </Link>
 

@@ -1,3 +1,7 @@
+.body-hero {
+    background-color: #e6e4e1;
+
+  }
 h1 {
     font-size: 80px;
     padding-left: 4rem;
@@ -5,7 +9,9 @@ h1 {
     text-shadow: -4px 4px 6px;
     -webkit-text-stroke: 0.4px black;
 }
-h2 {
+
+
+h3 {
     font-size: 24px;
     padding: 2rem 2rem 2rem 4rem;
     color: #707070;
@@ -14,34 +20,55 @@ h2 {
 }
 main {
     display: flex;
-    flex-wrap: wrap;
-    position: relative;
+    flex: 1;
+    justify-content: center;
   
 }
-.hero {
-    padding-top: 11rem;
-    max-width: 650px;
+.section3 {
+    background-color: #e6e4e1;
+    
+}
+.section5 {
+    background-color: #e6e4e1;
+}
+.hero-section {
     height: 100vh;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 1640px;
+}
+
+
+.hero-text {
+    flex: 1;
+    margin-right: 20px;
 }
 .hero-images {
     display: flex;
-    padding: 2rem 2rem 2rem 2rem;
-    flex-wrap: wrap;
+    position: relative;
+    flex: 1;
+    height: 100%;
     flex-direction: column;
-    float:right;
-    height:fit-content;
 }
 .image1 {
     transform: rotate(-40deg);
-    /* margin-left: 60vh; */
-    /* padding-bottom: 2rem; */
+    position:absolute;
+    top: 80px;
+    right: 100px;
+    height: auto;
     
 }
 
 .image2 {
     transform: rotate(40deg);
     /* margin-left: 80vh; */
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    height: auto;
 }
 .btn-checkoffer {
     padding-left: 2rem 2rem 2rem 4rem;
@@ -63,8 +90,9 @@ main {
     transition: all 0.3s easy-out;
     background: #b0414b;
     color: #ffff;
-    transition: 250ms;
     transform: scale(1.05);
+    margin: 1rem 1rem 1rem 4rem;
+
 }
 .alg_mouse_home .alg_mouse_home_arrow {
     -moz-animation: bounce 2s infinite;
@@ -88,16 +116,26 @@ main {
 }
 
 @media screen and (max-width: 960px) {
-
-
-.image1{ 
-    margin-left: 10vh;
-    margin-top: 4rem;
-}
-
-.image2{
-    margin-left: 10vh;
-    margin-top: 3rem;
-}
-
+    .hero{
+        flex-direction: column;
+    }
+    
+    .image1 {
+        /* transform: rotate(-40deg);
+        position:static; */
+        display:none;
+        
+        
+    }
+    
+    .image2 {
+        /* transform: rotate(40deg); */
+        /* margin-left: 80vh; */
+        /* position: static; */
+        display: none;
+       
+        
+    
+    }
+    
 }

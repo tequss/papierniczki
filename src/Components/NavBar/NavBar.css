@@ -1,15 +1,16 @@
 .NavbarItems{
-    /* background: #0d0d0d; */
     background: transparent;
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    /* background-color: #0d0d0d; */
-    margin: auto;
-    
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
 }
+
 .Image{
     height: 70px;
     margin-left: 20px;
@@ -51,10 +52,10 @@
 }
 
 .fa-bars {
-    color: #0000;
+    color: #000;
 }
 .fa-times {
-    color: #0000;
+    color: #000;
 }
 .menu-icon {
     display: none;
@@ -63,7 +64,7 @@
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
-        position: relative;
+        position: fixed;
         
     }
 
