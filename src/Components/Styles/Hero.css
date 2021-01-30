@@ -4,9 +4,10 @@
   }
 h1 {
     font-size: 80px;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
     text-shadow: -4px 4px 6px;
     -webkit-text-stroke: 0.4px black;
+    
 }
 
 h2 {
@@ -122,24 +123,11 @@ main {
 
 @media screen and (max-width: 1040px) {
     .hero-text {
-        max-width: 100%;
+        min-width: 100%;
+        text-align: center !important;
     }
-    .image1 {
-        /* transform: rotate(-40deg);
-        position:static; */
+    .image1, .hero-images, .image2{
         display:none;
-        
-        
-    }
-    
-    .image2 {
-        /* transform: rotate(40deg); */
-        /* margin-left: 80vh; */
-        /* position: static; */
-        display: none;
-       
-        
-    
     }
     
 }

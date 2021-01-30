@@ -21,6 +21,7 @@ h1 {
 .cards__wrapper {
   position: relative;
   margin: 50px 0 45px;
+  justify-content: center;
 }
 
 .cards__items {
@@ -120,5 +121,8 @@ h1 {
   }
   .cards__container {
     height: auto;
+  }
+  h2 {
+    text-align: center !important;
   }
 }

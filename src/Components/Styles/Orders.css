@@ -13,3 +13,9 @@
     margin-top: 50px;
     justify-content: center;
 }
+
+@media screen and (max-width: 1040px) {
+    .offer-text {
+        text-align: center;
+    }
+}
