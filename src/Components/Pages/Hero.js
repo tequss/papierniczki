@@ -19,10 +19,11 @@ class Hero extends Component {
                 <body className="body-hero">
                 <main>
                   <section className = "hero-section">
+                      <div className = "hero-container">
                       <div className="hero-text">
-                    <h1 style={{color: "#434343"}}>Sprawdź naszą</h1>
-                    <h1 style={{color: "#CD999D"}}>aktualną ofertę</h1>
-                    <h3>Coś pięknego dla oka i brzuszka</h3>  
+                    <h1 style={{color: "#5c5c5c"}}>Witajcie w świecie papieru i pierniczków czyli świecie</h1>
+                    <h1 style={{color: "#CD999D" }}>PAPIERNICZKI</h1>
+                    <h3>Co tu znajdziecie? <br /> Dwie siostry: Pani od plastyki i Pani dietetyk, a w koło wszystko co artystyczne zrobione z papieru i pierniczków. </h3>  
                     
                     <button className="btn-checkoffer">
             <Link smooth to="section2">
@@ -31,12 +32,8 @@ class Hero extends Component {
                     </button>
                     
                     </div>
-                    
-
-                <div className="hero-images">
-                <img src="/images/card.jpg" alt="" className="image1" width="320px" height="320px"/>
-                <img src="/images/card1.jpeg" alt="One of the papierniczki's project" className="image2" width="300px" height="300px"/>
-                </div>
+                    <img src="/images/heroimage.jpg" alt="One of the papierniczki's project" className="image2" width="500px" />
+                    </div>
                 </section>
 
                 </main>

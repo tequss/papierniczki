@@ -7,18 +7,18 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Aktualna oferta',
+        title: 'O nas',
         url: 'section2',
         cName: 'nav-links'
     },
     {
-        title: 'Realizacje',
-        url: 'section3',
+        title: 'Portfolio',
+        url: 'section2',
         cName: 'nav-links'
     },
     {
-        title: 'Zamówienia',
-        url: "section4",
+        title: 'Sklep',
+        url: 'section3',
         cName: 'nav-links'
     },
     {
@@ -26,5 +26,4 @@ export const MenuItems = [
         url: "section5",
         cName: 'nav-links'
     },
-
 ]

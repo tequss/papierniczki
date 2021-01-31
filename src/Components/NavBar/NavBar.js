@@ -35,10 +35,10 @@ class Navbar extends Component {
                    
                         )
                     })}
-
-
                 </ul>
-                {/* <Button>Sign Up</Button> */}
+                <div className="Icons">
+                    
+                </div>
             </nav>
         );
     }

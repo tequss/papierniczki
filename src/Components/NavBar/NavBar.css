@@ -1,14 +1,14 @@
 .NavbarItems{
-    background: transparent;
-    height: 50px;
+    background: #fff;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     font-size: 1.2rem;
-    position:fixed;
+    position: fixed;
     z-index: 1;
     width: 100%;
-    top: 0;
+    /* top: 0; */
 }
 
 .Image{
@@ -32,9 +32,10 @@
     text-align: center;
     list-style: none;
     width: 70vw;
-    justify-content: center;
+    justify-content: end;
     margin-right: 2rem;
     padding-bottom: 15px;
+    margin-top: 13px;
 }
 
 .nav-links{
@@ -45,10 +46,11 @@
 
 .nav-links:hover{
     background-color: #CD999D;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     transition: all 0.3 easy-out;
     color: #ffff;
     transition: 250ms;
+    border-radius: 4px;
 }
 
 .fa-bars {

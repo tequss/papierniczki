@@ -1,15 +1,8 @@
 .body-hero {
-    background-color: #e6e4e1;
-    background-image: radial-gradient(
-    #CD999D 1px,
-    transparent 2px
-  );
-  background-size: 60px 60px;
+    background-color: #fff;
   }
 h1 {
-    font-size: 70px;
-    text-shadow: -4px 4px 6px;
-    -webkit-text-stroke: 0.4px black;
+    font-size: 50px;
     display: flex;
     padding-left: 4rem;
     text-align: -webkit-auto;
@@ -25,11 +18,13 @@ h2 {
     
 }
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     padding: 2rem 2rem 2rem 4rem;
     color: #707070;
     display:flex;
     text-align: -webkit-auto;
+    line-height: 1.2;
+    font-weight: 450;
 }
 main {
     display: flex;
@@ -40,7 +35,7 @@ main {
 .section2 {
     background-color: #fff;
     background-image: radial-gradient(
-    #CD999D 1px,
+    #c28331 1px,
     transparent 2px
   );
   background-size: 60px 60px;
@@ -48,7 +43,7 @@ main {
 .section3 {
     background-color: #e6e4e1;
     background-image: radial-gradient(
-    #CD999D 1px,
+    #c28331 1px,
     transparent 2px
   );
   background-size: 60px 60px;
@@ -56,7 +51,7 @@ main {
 .section4 {
     background-color: #fff;
     background-image: radial-gradient(
-    #CD999D 1px,
+    #c28331 1px,
     transparent 2px
   );
   background-size: 60px 60px;
@@ -64,7 +59,7 @@ main {
 .section5 {
     background-color: #e6e4e1;
     background-image: radial-gradient(
-    #CD999D 1px,
+    #c28331 1px,
     transparent 2px
   );
   background-size: 60px 60px;
@@ -77,11 +72,29 @@ main {
     width: 100%;
     overflow-x: hidden;
     max-width: 1640px;
+    justify-content: center;
+
+    
+}
+.hero-container{
+    display: flex;
+    max-height: 500px;
+    margin-top: 80px;
+    /* border: 1px solid #c28331; */
+    border-radius: 10px;
+    flex-wrap: wrap;
+    
 }
 
 
 .hero-text {
     align-items: center;
+    background-color: #fff;
+    height: auto;
+    padding: 1rem 1rem 1rem 1rem;
+    max-width: 650px;
+    border-radius:10px;
+
 }
 
 .hero-images {
@@ -92,20 +105,15 @@ main {
     flex-direction: column;
 }
 .image1 {
-    transform: rotate(-40deg);
-    position:absolute;
-    top: 80px;
-    right: 100px;
+    position:relative;
     height: auto;
+    display: flex;
     
 }
 
 .image2 {
-    transform: rotate(40deg);
-    /* margin-left: 80vh; */
-    position: absolute;
-    top: 50%;
-    right: 300px;
+    display: flex;
+    position: relative;
     height: auto;
 }
 .btn-checkoffer {
@@ -116,11 +124,11 @@ main {
     cursor: pointer;
     display: flex;
     font-size: 16px;
-    background: #CD999D;
+    background: #5c5c5c;
     margin: 1rem 1rem 1rem 4rem;
     width: 150px;
     height: 50px;
-    color: #b0414b;
+    color: #fff;
     align-items: center;
     justify-content: center;
     
@@ -129,7 +137,7 @@ main {
 .btn-checkoffer:hover {
     
     transition: all 0.3s easy-out;
-    background: #b0414b;
+    background: #CD999D;
     color: #ffff;
     transform: scale(1.05);
     margin: 1rem 1rem 1rem 4rem;
@@ -158,7 +166,6 @@ main {
 
 @media screen and (max-width: 1040px) {
     .hero-text {
-        min-width: 100%;
         text-align: center !important;
     }
     .image1, .hero-images, .image2{
