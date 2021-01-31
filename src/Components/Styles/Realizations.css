@@ -32,11 +32,3 @@ h2 {
     margin-left: 450px; 
 }
 
-@media screen and (max-width: 1040px) {
-    .offer-text {
-        text-align: center;
-    }
-    .galery {
-        margin:0;
-    }
-}
