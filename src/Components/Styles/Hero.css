@@ -171,5 +171,8 @@ main {
     .image1, .hero-images, .image2{
         display:none;
     }
+    .body-hero {
+        height: auto;
+    }
     
 }
