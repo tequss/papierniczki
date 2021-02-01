@@ -1,22 +1,32 @@
-import React, { Component } from 'react';
-// import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Component, useState } from 'react';
+import { render } from "react-dom";
+import Gallery from "react-photo-gallery";
+import Photo from "../Components/Pages/Photo";
+import arrayMove from "array-move";
+import { SortableContainer, SortableElement } from "react-sortable-hoc";
+import { photos } from "../Components/Pages/Photos";
 import '../Components/Styles/Realizations.css'
-import Carusel from '../Components/Carusel';
+
+const SortablePhoto = SortableElement(item => <Photo {...item} />);
+const SortableGallery = SortableContainer(({ items }) => (
+  <Gallery photos={items} renderImage={props => <SortablePhoto {...props} />} />
+));
 
 
-class Realizations extends Component {
-    
-    render() {
+
+function Realizations() {
+   
+    const [items, setItems] = useState(photos);
+
+        const onSortEnd = ({ oldIndex, newIndex }) => {
+        setItems(arrayMove(items, oldIndex, newIndex));
+      };
         
         return (
                   <div className = "offer-container">
-                    <div className = "offer-text">
-                    <h2 style={{color: "#434343"}}>Nasze</h2>
-                    <h2 style={{color: "#CD999D"}}>Realizacje</h2>
-                    </div>
+                    <h2 style={{color: "#434343"}}>Portfolio</h2>
                     <div className = "galery">
-                    <Carusel />
-                    
+                    <SortableGallery items={items} onSortEnd={onSortEnd} axis={"xy"} />
                    
                     </div>
                 </div>
@@ -24,7 +34,6 @@ class Realizations extends Component {
               
         );
     }
-}
 
 
 export default Realizations;

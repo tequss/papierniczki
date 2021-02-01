@@ -4,31 +4,23 @@
     flex-direction: row;
     align-items: center;
     width: 100%;
-    overflow-x: hidden;
-    max-width: 1640px;  
-    /* justify-content: center;   */
+    max-width: 1640px;   
     flex-wrap: wrap;
-    
-    
-}
-
-.offer-text{
-    margin-top: 50px;
-    justify-content: start;
-    margin-left: 30px ;
-    text-align: center;
+    min-height:auto;
+    margin: 0 auto;
 }
 
 h2 {
     font-size: 40px;
-    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.galery {
+    display: flex;
+    margin:1rem 1rem 1rem 1rem;
+    padding: 60px 30px;
+    position: relative;
 }
 
-.galery {
-    max-width: 500px;
-    display: flex;
-    min-width: 300px;
-    flex: 1;
-    margin-left: 450px; 
-}
+
 
