@@ -5,7 +5,7 @@ const imgWithClick = { cursor: "pointer" };
 const Photo = ({ index, onClick, photo, margin, direction, top, left }) => {
   const imgStyle = { margin: margin };
   if (direction === "column") {
-    imgStyle.position = "absolute";
+    imgStyle.position = "relative";
     imgStyle.left = left;
     imgStyle.top = top;
   }

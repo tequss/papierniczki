@@ -1,23 +1,24 @@
 .offer-container {
-    height: 100vh;
-    display: flex;
+    /* height: 100vh; */
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
     width: 100%;
     max-width: 1640px;   
     flex-wrap: wrap;
-    min-height:auto;
+    max-height: auto;
     margin: 0 auto;
+    height: auto;
 }
 
 h2 {
     font-size: 40px;
     margin: 0 auto;
     margin-top: 30px;
+    padding-left: 4rem;
 }
 .galery {
-    display: flex;
-    margin:1rem 1rem 1rem 1rem;
+    margin:2rem 2rem 2rem 2rem;
     padding: 60px 30px;
     position: relative;
 }
