@@ -22,7 +22,7 @@ h3 {
     padding: 2rem 2rem 2rem 4rem;
     color: #707070;
     display:flex;
-    text-align: -webkit-auto;
+    /* text-align: -webkit-auto; */
     line-height: 1.2;
     font-weight: 450;
 }
@@ -167,6 +167,7 @@ main {
 @media screen and (max-width: 1040px) {
     .hero-text {
         text-align: center !important;
+        width: fit-content;
     }
     .image1, .hero-images, .image2{
         display:none;
@@ -174,5 +175,8 @@ main {
     .body-hero {
         height: auto;
     }
-    
+    h1, h3{
+        padding-left: 0;
+        
+    }
 }
