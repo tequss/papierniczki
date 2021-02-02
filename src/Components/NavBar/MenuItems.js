@@ -3,7 +3,7 @@
 export const MenuItems = [
     {
         title: 'Strona główna',
-        url: 'hero-section',
+        url: 'body-hero',
         cName: 'nav-links'
     },
     {
@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title: 'Portfolio',
-        url: 'section2',
+        url: 'section3',
         cName: 'nav-links'
     },
     {
