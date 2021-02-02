@@ -11,9 +11,6 @@ function Realizations() {
         <img src="/images/galery/image1.jpeg" alt="" />
         <img src="/images/galery/galery6.jpg" alt="" />
         <img src="/images/galery/galery1.jpg" alt="" />
-        <img src="https://source.unsplash.com/1300x1200/?oman" alt="" />
-        <img src="https://source.unsplash.com/1300x1200/?turkey" alt="" />
-        <img src="https://source.unsplash.com/1300x1200/?iran" alt="" />
       </div>
     </div>
   );
