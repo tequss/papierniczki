@@ -5,6 +5,7 @@ function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Aktualna oferta</h2>
+      <span> Kliknij w zestaw </span> 
       <div className="flip-boxes">
         <div className="flip-box">
           <div className="flip-box-inner">
