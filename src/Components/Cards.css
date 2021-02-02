@@ -78,3 +78,8 @@ h2 {
   color: #000;
   transform: rotateY(180deg);
 }
+@media only screen and (max-width: 1024px) {
+  .offer-container {
+    height: auto;
+  }
+}
