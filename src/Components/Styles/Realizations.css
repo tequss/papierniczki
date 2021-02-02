@@ -1,12 +1,11 @@
 .realizations {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
   min-height: 100vh;
-  max-height: auto;
 }
 .realizations-container {
   display: grid;
@@ -29,5 +28,9 @@
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
-
+@media (max-width: 700px) {
+  .realizations-container {
+    margin-bottom: 30px;
+  }
+}
 
