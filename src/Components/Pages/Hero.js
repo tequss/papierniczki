@@ -18,7 +18,7 @@ class Hero extends Component {
                 <>
                 <body className="body-hero">
                 <main>
-                  <section className = "hero-section">
+            
                       <div className = "hero-container">
                       <div className="hero-text">
                     <h1 style={{color: "#5c5c5c"}}>Witajcie w świecie papieru i pierniczków czyli świecie</h1>
@@ -34,7 +34,6 @@ class Hero extends Component {
                     </div>
                     <img src="/images/heroimage.jpg" alt="One of the papierniczki's project" className="image2" width="500px" />
                     </div>
-                </section>
 
                 </main>
                 
@@ -48,7 +47,7 @@ class Hero extends Component {
                 <Orders />
                 </section>
                 <section className="section5">
-                <Contact />
+                {/* <Contact /> */}
                 </section>
                 </body>
                 

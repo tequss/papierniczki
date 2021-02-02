@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import { BrowserRouter as Router } from 'react-router-dom';
-import '../Components/Styles/Realizations.css'
+import '../Components/Styles/Contact.css'
 
 
 class Contact extends Component {
@@ -9,13 +9,17 @@ class Contact extends Component {
         
         return (
                 
-                  <div className = "offer-container">
-                    <div className = "offer-text">
-                    <h1 style={{color: "#434343"}}>Kontakt</h1>
-                    <h1 style={{color: "#CD999D"}}>Do Nas</h1>
-                    </div>
-                </div>
-                
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                <div class="flip-box-front">
+      <img src="/images/cards/image3.jpeg" alt="Paris" height="300px" />
+    </div>
+    <div class="flip-box-back">
+      <h2>Paris</h2>
+      <p>What an amazing city</p>
+    </div>
+  </div>
+</div>
               
         );
     }

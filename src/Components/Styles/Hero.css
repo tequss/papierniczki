@@ -14,7 +14,6 @@ h2 {
     /* padding-left: 4rem; */
     text-shadow: -4px 4px 6px;
     display:flex;
-    align-self: flex-end;
     
 }
 h3 {
@@ -30,6 +29,8 @@ main {
     display: flex;
     flex: 1;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
   
 }
 .section2 {
@@ -43,6 +44,7 @@ main {
     transparent 2px
   );
   background-size: 60px 60px;
+  height: 800px;
 }
 .section4 {
     background-color: #fff;
@@ -60,18 +62,19 @@ main {
   );
   background-size: 60px 60px;
 }
-.hero-section {
+/* .hero-section {
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    /* overflow-x: hidden; */
+    min-width: 320px;
+    overflow-x: hidden;
     max-width: 1640px;
     justify-content: center;
 
     
-}
+} */
 .hero-container{
     display: flex;
     max-height: 500px;
@@ -165,10 +168,13 @@ main {
     .body-hero {
         height: fit-content;
     }
-    h1, h3{
+    h1,h2, h3{
         padding-left: 0;
     }
     .btn-checkoffer{
+        margin-left: 0;
+    }
+    .btn-checkoffer:hover{
         margin-left: 0;
     }
     .hero-container {

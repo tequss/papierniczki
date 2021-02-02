@@ -14,11 +14,12 @@ class Navbar extends Component {
 
     render() {
         return (
+            <>
+                    
             <nav className="NavbarItems" >
+            <img className="navbar-logo" src="/images/tusia2.png" alt="" />
 
-                <div className="Image" key="1">
-                    <img className="navbar-logo" src="/images/tusia2.png" alt="" />
-                </div>
+                
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -40,6 +41,7 @@ class Navbar extends Component {
                     
                 </div>
             </nav>
+            </>
         );
     }
 }
