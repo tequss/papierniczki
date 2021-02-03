@@ -1,5 +1,5 @@
 import React from "react";
-import "./Cards.css";
+import "../Styles/Cards.css";
 import Zoom from "react-reveal/Zoom";
 
 function Cards() {
@@ -28,7 +28,6 @@ function Cards() {
                   słodkim lukrem królewskim z nutą cytryny.
                 </p>
                 <p>
-                  
                   Produkt w całości jadalny. Wszystkie zdobienia wykonane są
                   ręcznie.
                 </p>
@@ -36,9 +35,7 @@ function Cards() {
                   Każde z ciasteczek zapakowane jest w celafonowy woreczek z
                   kokardką.
                 </p>
-                <p>
-                  Wymiary ciasteczka: 9cm x 9cm 
-                </p>
+                <p>Wymiary ciasteczka: 9cm x 9cm</p>
                 <span>30zł</span>
               </div>
             </div>
@@ -54,16 +51,13 @@ function Cards() {
                 />
               </div>
               <div className="flip-box-back">
-              <h3>Zestaw "LOVE"</h3>
+                <h3>Zestaw "LOVE"</h3>
                 <p>
-
-                  Zestaw pięciu ręcznie malowanych ciasteczek.
-                  Cztery miodowo-maślane literki i jedno czekoladowe serce.
-                   Wszystkie pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+                  Zestaw pięciu ręcznie malowanych ciasteczek. Cztery
+                  miodowo-maślane literki i jedno czekoladowe serce. Wszystkie
+                  pokryte słodkim lukrem królewskim z nutą cytryny.
                 </p>
                 <p>
-                  
                   Produkt w całości jadalny. Wszystkie zdobienia wykonane są
                   ręcznie.
                 </p>
@@ -72,8 +66,9 @@ function Cards() {
                   kokardką.
                 </p>
                 <p>
-                  Wymiary: <br/>Literki 5cm x 8cm<br/> Serce 9cm x 9cm
-              
+                  Wymiary: <br />
+                  Literki 5cm x 8cm
+                  <br /> Serce 9cm x 9cm
                 </p>
                 <span>30zł</span>
               </div>
@@ -90,16 +85,13 @@ function Cards() {
                 />
               </div>
               <div className="flip-box-back">
-              <h3>Zestaw "PARA"</h3>
+                <h3>Zestaw "PARA"</h3>
                 <p>
-
-                  Zestaw trzech ręcznie malowanych ciasteczek.
-                  Dwi miodowo-maślane postacie i jedne czekoladowe usta.
-                   Wszystkie pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+                  Zestaw trzech ręcznie malowanych ciasteczek. Dwi
+                  miodowo-maślane postacie i jedne czekoladowe usta. Wszystkie
+                  pokryte słodkim lukrem królewskim z nutą cytryny.
                 </p>
                 <p>
-                  
                   Produkt w całości jadalny. Wszystkie zdobienia wykonane są
                   ręcznie.
                 </p>
@@ -108,8 +100,7 @@ function Cards() {
                   kokardką.
                 </p>
                 <p>
-                  Wymiary: <br/> Postacie 10cm x 10cm <br/> Usta 6cm x 10cm
-              
+                  Wymiary: <br /> Postacie 10cm x 10cm <br /> Usta 6cm x 10cm
                 </p>
                 <span>30zł</span>
               </div>

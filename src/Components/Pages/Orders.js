@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-// import { BrowserRouter as Router } from 'react-router-dom';
-import "../Components/Styles/Orders.css";
+import "../Styles/Orders.css";
 
 class Orders extends Component {
   render() {

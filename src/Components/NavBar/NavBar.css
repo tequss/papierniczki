@@ -9,7 +9,6 @@
     z-index: 1;
     margin: auto;
     width: 100%;
-    /* top: 0; */
 }
 
 .Image{
@@ -24,7 +23,6 @@
 }
 
 .navbar-logo{
-    /* justify-self: start; */
     margin-left: 20px;
     cursor: pointer;
     position: absolute;
@@ -53,7 +51,6 @@
 
 .nav-links:hover{
     background-color: #CD999D;
-    /* border-radius: 4px; */
     transition: all 0.3 easy-out;
     color: #ffff;
     transition: 250ms;
@@ -123,24 +120,17 @@
     .navbar-logo {
         position: absolute;
         height: 90px;
-        /* margin-top:20px; */
         margin-left: auto;
         margin-right: auto;
         margin-top:10px;
         top:0;
         left:auto;
 
-        /* transform: translate(25%, 50%); */
-        /* margin: 0 auto; */
-
-        
     }
 
     .Image{
-        /* position: absolute; */
         top: 0;
         left: 0;
-        /* transform: translate(5%, 0%); */
         justify-content: center;
         
         
