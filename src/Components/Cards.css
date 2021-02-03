@@ -11,6 +11,11 @@
 h2 {
   text-align: center;
   margin-top: 90px;
+  margin-bottom: 30px;
+}
+
+span {
+  margin-bottom: 30px;
 }
 
 .flip-boxes {
@@ -24,6 +29,10 @@ h2 {
 @media (max-width: 700px) {
   .flip-boxes {
     margin-bottom: 30px;
+    width: 100%;
+  }
+  .flip-box-inner img {
+    height: 300px;
   }
 }
 
@@ -34,10 +43,10 @@ h2 {
 /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-box {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin: 10px 10px 10px 10px;
+  margin: 30px 10px 10px 10px;
   padding: 10px 10px 10px 10px;
 }
 
@@ -65,10 +74,21 @@ h2 {
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
-
+.flip-box-back p{
+  margin-bottom: 10px;
+}
+.flip-box-back h3{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0 auto;
+}
+.flip-box-back span{
+  font-weight:600;
+}
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: #bbb;
+  background-color: #fff;
   color: black;
 }
 

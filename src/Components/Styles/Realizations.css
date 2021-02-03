@@ -20,6 +20,7 @@
   width: 100%;
   display: block;
   transition: all 100ms ease-out;
+  border-radius: 10px;
 }
 .realizations-container img:hover {
   transform: scale(1.04);

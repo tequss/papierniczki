@@ -1,47 +1,120 @@
 import React from "react";
 import "./Cards.css";
+import Zoom from "react-reveal/Zoom";
 
 function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Aktualna oferta</h2>
-      <span> Kliknij w zestaw </span> 
+      <span> Kliknij w zestaw </span>
+
       <div className="flip-boxes">
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img src="/images/cards/image3.jpeg" alt="Paris" height="300px" />
-            </div>
-            <div className="flip-box-back">
-              <h2>Zestaw "SERCA"</h2>
-              <p>30zł</p>
+        <Zoom>
+          <div className="flip-box">
+            <div className="flip-box-inner">
+              <div className="flip-box-front">
+                <img
+                  src="/images/cards/image3.jpeg"
+                  alt="Paris"
+                  height="400px"
+                />
+              </div>
+              <div className="flip-box-back">
+                <h3>Zestaw "SERCA"</h3>
+                <p>
+                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
+                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
+                  słodkim lukrem królewskim z nutą cytryny.
+                </p>
+                <p>
+                  
+                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
+                  ręcznie.
+                </p>
+                <p>
+                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
+                  kokardką.
+                </p>
+                <p>
+                  Wymiary ciasteczka: 9cm x 9cm 
+                </p>
+                <span>30zł</span>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img src="/images/cards/image2.jpeg" alt="Paris" height="300px" />
-            </div>
-            <div className="flip-box-back">
-              <h2>Zestaw "LOVE"</h2>
-              <p>30zł</p>
-            </div>
-          </div>
-        </div>
+          <div className="flip-box">
+            <div className="flip-box-inner">
+              <div className="flip-box-front">
+                <img
+                  src="/images/cards/image2.jpeg"
+                  alt="Paris"
+                  height="400px"
+                />
+              </div>
+              <div className="flip-box-back">
+              <h3>Zestaw "LOVE"</h3>
+                <p>
 
-        <div className="flip-box">
-          <div className="flip-box-inner">
-            <div className="flip-box-front">
-              <img src="/images/cards/image4.jpeg" alt="Paris" height="300px" />
-            </div>
-            <div className="flip-box-back">
-              <h2>Zestaw "PARA"</h2>
-              <p>30zł</p>
+                  Zestaw pięciu ręcznie malowanych ciasteczek.
+                  Cztery miodowo-maślane literki i jedno czekoladowe serce.
+                   Wszystkie pokryte
+                  słodkim lukrem królewskim z nutą cytryny.
+                </p>
+                <p>
+                  
+                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
+                  ręcznie.
+                </p>
+                <p>
+                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
+                  kokardką.
+                </p>
+                <p>
+                  Wymiary: <br/>Literki 5cm x 8cm<br/> Serce 9cm x 9cm
+              
+                </p>
+                <span>30zł</span>
+              </div>
             </div>
           </div>
-        </div>
+
+          <div className="flip-box">
+            <div className="flip-box-inner">
+              <div className="flip-box-front">
+                <img
+                  src="/images/cards/image4.jpeg"
+                  alt="Paris"
+                  height="400px"
+                />
+              </div>
+              <div className="flip-box-back">
+              <h3>Zestaw "PARA"</h3>
+                <p>
+
+                  Zestaw trzech ręcznie malowanych ciasteczek.
+                  Dwi miodowo-maślane postacie i jedne czekoladowe usta.
+                   Wszystkie pokryte
+                  słodkim lukrem królewskim z nutą cytryny.
+                </p>
+                <p>
+                  
+                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
+                  ręcznie.
+                </p>
+                <p>
+                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
+                  kokardką.
+                </p>
+                <p>
+                  Wymiary: <br/> Postacie 10cm x 10cm <br/> Usta 6cm x 10cm
+              
+                </p>
+                <span>30zł</span>
+              </div>
+            </div>
+          </div>
+        </Zoom>
       </div>
     </div>
   );

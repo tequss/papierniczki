@@ -4,6 +4,7 @@ import Orders from "../Orders";
 import Realizations from "../Realizations";
 import { Link } from "react-scroll";
 import "../Styles/Hero.css";
+import Fade from 'react-reveal/Fade';
 
 
 class Hero extends Component {
@@ -14,10 +15,14 @@ class Hero extends Component {
           <main>
             <div className="hero-container">
               <div className="hero-text">
+                <Fade left>
                 <h1 style={{ color: "#5c5c5c" }}>
                   Witajcie w świecie papieru i pierniczków czyli świecie
                 </h1>
+                </Fade>
+                <Fade right>
                 <h1 style={{ color: "#CD999D" }}>PAPIERNICZKI</h1>
+                </Fade>
                 <h3>
                   Co tu znajdziecie? <br /> Dwie siostry: Pani od plastyki i
                   Pani dietetyk, a w koło wszystko co artystyczne zrobione z
@@ -33,7 +38,7 @@ class Hero extends Component {
               <img
                 src="/images/heroimage.jpg"
                 alt="One of the papierniczki's project"
-                className="image2"
+                className="imagehero"
                 width="500px"
               />
             </div>

@@ -38,12 +38,7 @@ main {
 }
 
 .section3 {
-    background-color: #e6e4e1;
-    background-image: radial-gradient(
-    #c28331 1px,
-    transparent 2px
-  );
-  background-size: 60px 60px;
+    background-color: #fff;
 }
 .section4 {
     background-color: #fff;
@@ -158,12 +153,14 @@ main {
         transform: translateY(5px);
     }
 }
-
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1150px) {
     
-    .image1, .hero-images, .image2{
+    .imagehero{
         display:none;
     }
+}
+@media screen and (max-width: 1040px) {
+    
     .body-hero {
         height: fit-content;
     }
