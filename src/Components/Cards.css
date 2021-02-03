@@ -17,6 +17,9 @@ h2 {
 span {
   margin-bottom: 30px;
 }
+.mobilespan {
+  display:none;
+}
 
 .flip-boxes {
   display: flex;
@@ -105,5 +108,11 @@ span {
 @media only screen and (max-width: 1024px) {
   .offer-container {
     height: auto;
+  }
+  .webspan{
+    display: none;
+  }
+  .mobilespan {
+    display:inline-flex;
   }
 }

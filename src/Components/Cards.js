@@ -6,7 +6,8 @@ function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Aktualna oferta</h2>
-      <span> Kliknij w zestaw </span>
+      <span className="mobilespan"> Kliknij w zestaw </span>
+      <span className="webspan">Najedź na zestaw</span>
 
       <div className="flip-boxes">
         <Zoom>
