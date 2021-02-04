@@ -92,7 +92,7 @@ main {
     position: relative;
     height: auto;
 }
-.check-offer {
+button {
     border-radius: 4px;
     outline: none;
     border: none;
@@ -109,7 +109,7 @@ main {
     
 }
 
-.check-offer:hover {
+button:hover {
     
     transition: all 0.3s easy-out;
     background: #CD999D;
@@ -152,10 +152,10 @@ main {
     h1,h2, h3{
         padding-left: 0;
     }
-    .check-offer{
+    button{
         margin-left: 0;
     }
-    .check-offer:hover{
+    button:hover{
         margin-left: 0;
     }
     .hero-container {

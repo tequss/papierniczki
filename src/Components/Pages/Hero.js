@@ -28,7 +28,7 @@ class Hero extends Component {
                   papieru i pierniczków.{" "}
                 </h3>
 
-                <button className="check-offer">
+                <button>
                   <Link smooth to="section2">
                     <span aria-hidden="true">Sprawdź ofertę</span>
                   </Link>
