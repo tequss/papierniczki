@@ -3,21 +3,22 @@
   flex-direction: column;
   align-items: center;
   max-width: 1640px;
-  width: 100%;
+  width: 98%;
   margin: 0 auto;
   min-height: 100vh;
 }
 .realizations-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   background: transparent;
-  padding: 15px;
+  /* padding: 15px; */
   margin-top: 50px;
   max-height: fit-content;
+  margin-bottom: 50px;
 }
 .realizations-container img {
-  width: 100%;
+  width: 90%;
   display: block;
   transition: all 100ms ease-out;
   border-radius: 10px;

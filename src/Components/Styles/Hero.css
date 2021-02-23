@@ -2,26 +2,27 @@
     background-color: #fff;
   }
 h1 {
-    font-size: 50px;
+    font-size: 46px;
     display: flex;
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
     text-align: -webkit-auto;
     
 }
 
 h2 {
     font-size: 60px;
-    text-shadow: -4px 4px 6px;
+    /* text-shadow: -4px 4px 6px; */
     display:flex;
     
 }
 h3 {
     font-size: 20px;
-    padding: 2rem 2rem 2rem 4rem;
+    /* padding: 2rem 2rem 2rem 4rem; */
     color: #707070;
     display:flex;
     line-height: 1.2;
     font-weight: 450;
+    margin-top: 20px;
 }
 main {
     display: flex;
@@ -68,9 +69,12 @@ main {
     align-items: center;
     background-color: #fff;
     height: auto;
-    padding: 1rem 1rem 1rem 1rem;
+    /* padding: 1rem 1rem 1rem 1rem; */
     max-width: 650px;
     border-radius:10px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .hero-images {
@@ -100,7 +104,7 @@ button {
     display: flex;
     font-size: 16px;
     background: #5c5c5c;
-    margin: 1rem 1rem 1rem 4rem;
+    margin: 2rem;
     width: 150px;
     height: 50px;
     color: #fff;
@@ -115,7 +119,7 @@ button:hover {
     background: #CD999D;
     color: #ffff;
     transform: scale(1.05);
-    margin: 1rem 1rem 1rem 4rem;
+    margin: 2rem;
 
 }
 .alg_mouse_home .alg_mouse_home_arrow {

@@ -54,7 +54,7 @@ span {
   height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin: 10px 10px 10px 10px;
-  padding: 0px 10px 0px 10px;
+  /* padding: 0px 10px 0px 10px; */
 }
 
 /* This container is needed to position the front and back side */
