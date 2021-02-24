@@ -6,7 +6,6 @@ function Cards1(props) {
 
   const toggleClass = () => {
     setActive(!expanded);
-    console.log("DEBUGGING");
   };
 
   return (
@@ -138,7 +137,7 @@ function Cards1(props) {
         className={expanded ? "card" : "card expanded"}
         onClick={toggleClass}
       >
-        <img src="/images/cards/card7.JPG" alt="" width="300px" />
+        <img src="/images/cards/card7.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Zestaw "SERCA"</h1>
@@ -179,7 +178,7 @@ function Cards1(props) {
         className={expanded ? "card" : "card expanded"}
         onClick={toggleClass}
       >
-        <img src="/images/cards/card8.JPG" alt="" width="300px" />
+        <img src="/images/cards/card8.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Zestaw "SERCA"</h1>

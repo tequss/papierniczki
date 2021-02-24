@@ -22,6 +22,9 @@
 .card img {
     margin-top: 20px;
 }
+.text-content {
+    margin-bottom: 20px;
+}
 @media (max-width: 767px) {
   .card {
       width:300px;
@@ -31,6 +34,9 @@
   }
   .card img {
       max-width: 95%
+  }
+  .cards {
+      justify-content: none;
   }
 }
 .card.expanded {
