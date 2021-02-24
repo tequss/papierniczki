@@ -11,11 +11,11 @@ function Realizations() {
         <Zoom>
           <img src="/images/galery/galery7.jpg" alt="" />
           <img src="/images/galery/galery10.jpg" alt="" />
-          <img src="/images/galery/galery15.jpg" alt="" />
-          <img src="/images/galery/galery16.jpg" alt="" />
-          <img src="/images/galery/galery13.jpg" alt="" />
-          <img src="/images/galery/galery14.jpg" alt="" />
-          <img src="/images/galery/galery12.jpg" alt="" />
+          <img src="/images/galery/galery15.JPG" alt="" />
+          <img src="/images/galery/galery16.JPG" alt="" />
+          <img src="/images/galery/galery13.JPG" alt="" />
+          <img src="/images/galery/galery14.JPG" alt="" />
+          <img src="/images/galery/galery12.JPG" alt="" />
           <img src="/images/galery/image1.jpeg" alt="" />
           <img src="/images/galery/galery6.jpg" alt="" />
           <img src="/images/galery/galery1.jpg" alt="" />
