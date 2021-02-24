@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Cards1.css";
+import Zoom from "react-reveal/Zoom";
 
 function Cards1(props) {
   const [expanded, setActive] = useState(true);
@@ -9,7 +10,9 @@ function Cards1(props) {
   };
 
   return (
+      
     <div className="cards">
+        <Zoom>
       <div
         className={expanded ? "card" : "card expanded"}
         onClick={toggleClass}
@@ -215,7 +218,9 @@ function Cards1(props) {
           />
         </svg>
       </div>
+      </Zoom>
     </div>
+    
   );
 }
 export default Cards1;
