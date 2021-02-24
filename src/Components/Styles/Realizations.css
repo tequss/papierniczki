@@ -16,6 +16,7 @@
   margin-top: 50px;
   max-height: fit-content;
   margin-bottom: 50px;
+  justify-items: center;
 }
 .realizations-container img {
   width: 90%;
