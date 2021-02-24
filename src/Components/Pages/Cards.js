@@ -1,16 +1,18 @@
 import React from "react";
 import "../Styles/Cards.css";
 import Zoom from "react-reveal/Zoom";
+import Cards1 from "../Cards1";
 
 function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Aktualna oferta</h2>
-      <span className="mobilespan"> Kliknij w zestaw </span>
-      <span className="webspan">Najedź na zestaw</span>
-
-      <div className="flip-boxes">
+      {/* <span className="mobilespan"> Kliknij w zestaw </span>
+      <span className="webspan">Najedź na zestaw</span> */}
+      <Cards1/>
+      {/* <div className="flip-boxes">
         <Zoom>
+          
           <div className="flip-box">
             <div className="flip-box-inner">
               <div className="flip-box-front">
@@ -107,9 +109,10 @@ function Cards() {
             </div>
           </div>
         </Zoom>
-      </div>
-    </div>
-  );
-}
+     </div> */}
+     </div>
+    
+  )
+};
 
 export default Cards;
