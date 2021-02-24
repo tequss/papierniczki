@@ -5,6 +5,7 @@ import Realizations from "./Realizations";
 import { Link } from "react-scroll";
 import "../Styles/Hero.css";
 import Fade from "react-reveal/Fade";
+import Footer from "../Footer";
 
 class Hero extends Component {
   render() {
@@ -53,6 +54,7 @@ class Hero extends Component {
             {/* <Orders /> */}
           </section>
           <section className="section5">{/* <Contact /> */}</section>
+          <Footer/>
         </body>
       </>
     );

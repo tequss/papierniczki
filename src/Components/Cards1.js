@@ -20,23 +20,23 @@ function Cards1(props) {
         <img src="/images/cards/card4.JPG" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-            <h1 className="title">Zestaw "SERCA"</h1>
+          <h1 className="title">Dla Niej  - Duży Zestaw </h1>
             <div className="body-text">
             <p>
-                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
-                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+            Okolicznościowy zestaw kobiecy.
                 </p>
                 <p>
-                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
-                  ręcznie.
+                Zawiera jadalne kosmetyki i kobiece gadżety
                 </p>
                 <p>
-                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
-                  kokardką.
+                Zestaw 4 miodowych pierniczków ozdobionych lukrem królewskim i jadalnym złotem.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+Możliwość wyboru koloru oraz dodania napisu.
+Produkt w całości jadalny.
+
                 </p>
-                <p>Wymiary ciasteczka: 9cm x 9cm</p>
-                <span>30zł</span>
+                <p>Pudełko 20,5 cm x 20,5 cm</p>
+                <span>60zł</span>
             </div>
           </div>
         </div>
@@ -61,23 +61,24 @@ function Cards1(props) {
         <img src="/images/cards/card5.JPG" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw "SERCA"</h1>
+          <h1 className="title">Dla Niej - Lustro & Lakier</h1>
             <div className="body-text">
             <p>
-                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
-                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+            Okolicznościowy zestaw kobiecy.
                 </p>
                 <p>
-                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
-                  ręcznie.
+                Zawiera jadalne kosmetyki i kobiece gadżety
                 </p>
                 <p>
-                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
-                  kokardką.
+                Zestaw 2 miodowych pierniczków ozdobionych lukrem królewskim i jadalnym złotem.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+Możliwość wyboru koloru oraz dodania napisu.
+Produkt w całości jadalny.
+
+
                 </p>
-                <p>Wymiary ciasteczka: 9cm x 9cm</p>
-                <span>30zł</span>
+                <p>Pudełko 9,5 cm x 20 cm</p>
+                <span>35zł</span>
             </div>
           </div>
         </div>
@@ -102,23 +103,25 @@ function Cards1(props) {
         <img src="/images/cards/card6.JPG" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw "SERCA"</h1>
+          <h1 className="title">Dla Niej - Perfumy & Szminka </h1>
             <div className="body-text">
             <p>
-                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
-                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+            Okolicznościowy zestaw kobiecy.
                 </p>
                 <p>
-                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
-                  ręcznie.
+                Zawiera jadalne kosmetyki i kobiece gadżety
                 </p>
                 <p>
-                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
-                  kokardką.
+                Zestaw 2 miodowych pierniczków ozdobionych lukrem królewskim i jadalnym złotem.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+Możliwość wyboru koloru oraz dodania napisu.
+Produkt w całości jadalny.
+
+
+
                 </p>
-                <p>Wymiary ciasteczka: 9cm x 9cm</p>
-                <span>30zł</span>
+                <p>Pudełko 15,5 cm x 15,5 cm</p>
+                <span>35zł</span>
             </div>
           </div>
         </div>
@@ -143,23 +146,23 @@ function Cards1(props) {
         <img src="/images/cards/card7.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw "SERCA"</h1>
+          <h1 className="title">Zestaw Chłopczyk</h1>
             <div className="body-text">
             <p>
-                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
-                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+            Okolicznościowy zestaw dla chłopca.
                 </p>
                 <p>
-                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
-                  ręcznie.
+                Zawiera 4 miodowe pierniczki: konik, body, wózek, miś. 
                 </p>
                 <p>
-                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
-                  kokardką.
+                Wszystkie zdobienia wykonane są lukrem królewskim.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+Produkt w całości jadalny.
+
+
                 </p>
-                <p>Wymiary ciasteczka: 9cm x 9cm</p>
-                <span>30zł</span>
+                <p>Pudełko 20,5 cm x 20,5 cm</p>
+                <span>60zł</span>
             </div>
           </div>
         </div>
@@ -184,23 +187,23 @@ function Cards1(props) {
         <img src="/images/cards/card8.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw "SERCA"</h1>
+          <h1 className="title">Zestaw Dziewczynka</h1>
             <div className="body-text">
             <p>
-                  Zestaw czterech ręcznie malowanych ciasteczek w kształcie
-                  serca. Dwa mocno czekoladowe i dwa miodowo-maślane, pokryte
-                  słodkim lukrem królewskim z nutą cytryny.
+            Okolicznościowy zestaw dla dziewczynki.
                 </p>
                 <p>
-                  Produkt w całości jadalny. Wszystkie zdobienia wykonane są
-                  ręcznie.
+                Zawiera 4 miodowe pierniczki: konik, body, wózek, miś. 
                 </p>
                 <p>
-                  Każde z ciasteczek zapakowane jest w celafonowy woreczek z
-                  kokardką.
+                Wszystkie zdobienia wykonane są lukrem królewskim.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+ Produkt w całości jadalny.
+
+
                 </p>
-                <p>Wymiary ciasteczka: 9cm x 9cm</p>
-                <span>30zł</span>
+                <p>Pudełko 20,5 cm x 20,5 cm</p>
+                <span>60zł</span>
             </div>
           </div>
         </div>

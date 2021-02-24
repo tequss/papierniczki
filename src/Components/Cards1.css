@@ -12,7 +12,6 @@
   cursor: pointer;
   height: 370px;
   margin: 20px;
-  padding: 0 20px;
   position: relative;
   -webkit-tap-highlight-color: rgba(0,0,0,0.025);
   text-align: center;
@@ -29,8 +28,7 @@
   .card {
       width:350px;
       min-height: 350px;
-    left: calc(50% - 20px);
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
   }
   .card img {
       max-width: 95%

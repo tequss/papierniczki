@@ -3,7 +3,6 @@
   }
 h1 {
     font-size: 46px;
-    display: flex;
     /* padding-left: 4rem; */
     text-align: -webkit-auto;
     
@@ -23,6 +22,9 @@ h3 {
     line-height: 1.2;
     font-weight: 450;
     margin-top: 20px;
+}
+p{
+    margin: 10px;
 }
 main {
     display: flex;

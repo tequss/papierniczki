@@ -5,7 +5,6 @@
   max-width: 1640px;
   width: 100%;
   margin: 0 auto;
-  min-height: 100vh;
 }
 
 h2 {
@@ -110,6 +109,7 @@ span {
 @media only screen and (max-width: 1024px) {
   .offer-container {
     height: auto;
+    max-width: 100vh;
   }
   .webspan{
     display: none;
