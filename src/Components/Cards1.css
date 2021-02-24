@@ -10,7 +10,7 @@
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   cursor: pointer;
-  height: 370px;
+  height: 400px;
   margin: 20px;
   position: relative;
   -webkit-tap-highlight-color: rgba(0,0,0,0.025);
@@ -89,7 +89,7 @@ transition: clip-path 1000ms;
   font-weight: 300;
   margin: 10px 12px;
   padding-top: 15px;
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
 }
 .body-text {

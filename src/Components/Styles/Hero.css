@@ -24,7 +24,7 @@ h3 {
     margin-top: 20px;
 }
 p{
-    margin: 10px;
+    margin: 4px;
 }
 main {
     display: flex;
@@ -121,7 +121,7 @@ button:hover {
     background: #CD999D;
     color: #ffff;
     transform: scale(1.05);
-    margin: 2rem;
+    margin-top: 2rem;
 
 }
 .alg_mouse_home .alg_mouse_home_arrow {
