@@ -3,10 +3,30 @@ import "./Cards1.css";
 import Zoom from "react-reveal/Zoom";
 
 function Cards1(props) {
-  const [expanded, setActive] = useState(true);
+  const [expandedFirst, setExpandedFirst] = useState(true);
+  const [expandedSecond, setExpandedSecond] = useState(true);
+  const [expandedThird, setExpandedThird] = useState(true);
+  const [expandedFourth, setExpandedFourth] = useState(true);
+  const [expandedFifth, setExpandedFifth] = useState(true);
 
-  const toggleClass = () => {
-    setActive(!expanded);
+  const toggleFirst = () => {
+    setExpandedFirst(!expandedFirst);
+  };
+
+  const toggleSecond = () => {
+    setExpandedSecond(!expandedSecond);
+  };
+
+  const toggleThird = () => {
+    setExpandedThird(!expandedThird);
+  };
+
+  const toggleFourth = () => {
+    setExpandedFourth(!expandedFourth);
+  };
+
+  const toggleFifth = () => {
+    setExpandedFifth(!expandedFifth);
   };
 
   return (
@@ -14,8 +34,8 @@ function Cards1(props) {
     <div className="cards">
         <Zoom>
       <div
-        className={expanded ? "card" : "card expanded"}
-        onClick={toggleClass}
+        className={expandedFirst ? "card" : "card expanded"}
+        onClick={toggleFirst}
       >
         <img src="/images/cards/card4.JPG" alt="" width="300px" />
         <div className="text1">
@@ -55,8 +75,8 @@ Produkt w całości jadalny.
         </svg>
       </div>
       <div
-        className={expanded ? "card" : "card expanded"}
-        onClick={toggleClass}
+        className={expandedSecond ? "card" : "card expanded"}
+        onClick={toggleSecond}
       >
         <img src="/images/cards/card5.JPG" alt="" width="300px" />
         <div className="text1">
@@ -97,8 +117,8 @@ Produkt w całości jadalny.
         </svg>
       </div>
       <div
-        className={expanded ? "card" : "card expanded"}
-        onClick={toggleClass}
+        className={expandedThird ? "card" : "card expanded"}
+        onClick={toggleThird}
       >
         <img src="/images/cards/card6.JPG" alt="" width="300px" />
         <div className="text1">
@@ -140,8 +160,8 @@ Produkt w całości jadalny.
         </svg>
       </div>
       <div
-        className={expanded ? "card" : "card expanded"}
-        onClick={toggleClass}
+        className={expandedFourth ? "card" : "card expanded"}
+        onClick={toggleFourth}
       >
         <img src="/images/cards/card7.jpg" alt="" width="300px" />
         <div className="text1">
@@ -181,8 +201,8 @@ Produkt w całości jadalny.
         </svg>
       </div>
       <div
-        className={expanded ? "card" : "card expanded"}
-        onClick={toggleClass}
+        className={expandedFifth ? "card" : "card expanded"}
+        onClick={toggleFifth}
       >
         <img src="/images/cards/card8.jpg" alt="" width="300px" />
         <div className="text1">
