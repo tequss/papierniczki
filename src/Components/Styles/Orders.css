@@ -1,5 +1,35 @@
 .order-container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+.aboutorders{
+    display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+.aboutorders  p {
+    font-size: 20px;
+    margin: 1rem;
+}
+.aboutorders h4 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 2rem
+}
+.order-text{
+    margin-top: 90px;
+}
+
+.cookies-text {
+    max-width: 320px;
+    margin: 3rem;
+}
+
+.paintings-text{
+    max-width:320px;
+    margin: 3rem;
 }

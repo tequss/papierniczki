@@ -43,11 +43,7 @@ main {
 }
 .section4 {
     background-color: #fff;
-    background-image: radial-gradient(
-    #c28331 1px,
-    transparent 2px
-  );
-  background-size: 60px 60px;
+    
 }
 .section5 {
     background-color: #e6e4e1;

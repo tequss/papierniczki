@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Cards from "./Cards";
-// import Orders from "./Orders";
+import Orders from "./Orders";
 import Realizations from "./Realizations";
 import { Link } from "react-scroll";
 import "../Styles/Hero.css";
@@ -51,7 +51,7 @@ class Hero extends Component {
             <Realizations />
           </section>
           <section className="section4">
-            {/* <Orders /> */}
+            <Orders />
           </section>
           <section className="section5">{/* <Contact /> */}</section>
           <Footer/>

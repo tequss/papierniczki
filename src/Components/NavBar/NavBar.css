@@ -92,7 +92,7 @@
     }
 
     .nav-menu.active {
-        background: #0d0d0d;
+        background: #CD999D;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
@@ -108,6 +108,7 @@
         width: 100%;
         display: table;
         height: 100%;
+        color: #2e2e2e;
 
        
     }

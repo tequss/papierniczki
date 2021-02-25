@@ -8,6 +8,9 @@ function Cards1(props) {
   const [expandedThird, setExpandedThird] = useState(true);
   const [expandedFourth, setExpandedFourth] = useState(true);
   const [expandedFifth, setExpandedFifth] = useState(true);
+  const [expandedSixth, setExpandedSixth] = useState(true);
+  const [expandedSeventh, setExpandedSeventh] = useState(true);
+  const [expandedEighth, setExpandedEighth] = useState(true);
 
   const toggleFirst = () => {
     setExpandedFirst(!expandedFirst);
@@ -27,6 +30,15 @@ function Cards1(props) {
 
   const toggleFifth = () => {
     setExpandedFifth(!expandedFifth);
+  };
+  const toggleSixth = () => {
+    setExpandedSixth(!expandedSixth);
+  };
+  const toggleSeventh = () => {
+    setExpandedSeventh(!expandedSeventh);
+  };
+  const toggleEighth = () => {
+    setExpandedEighth(!expandedEighth);
   };
 
   return (
@@ -224,6 +236,100 @@ Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
                 </p>
                 <p>Pudełko 20,5 cm x 20,5 cm</p>
                 <span>60zł</span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+      <div
+        className={expandedSixth ? "card" : "card expanded"}
+        onClick={toggleSixth}
+      >
+        <img src="/images/cards/paint1.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Portret Linia</h1>
+            <div className="body-text">
+            <p>
+            Minimalistyczny projekt wykonany czarną linią. 
+                </p>
+                <p>Projekt w tej cenie to grafika do samodzielnego wydruku z max 2 postaciami. Grafiki z naszym wydrukiem i większą ilością postaci wyceniamy indywidualnie w zależności od wielkości wydruku.</p>
+                <span>50zł</span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+      <div
+        className={expandedSeventh ? "card" : "card expanded"}
+        onClick={toggleSeventh}
+      >
+        <img src="/images/cards/paint2.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Portret Standard</h1>
+            <div className="body-text">
+            <p>
+            Standardowa kolorowa grafika bez wyraźnych szczegółów. 
+                </p>
+                <p>Projekt w tej cenie to grafika do samodzielnego wydruku z max 2 postaciami. Grafiki z naszym wydrukiem i większą ilością postaci wyceniamy indywidualnie w zależności od wielkości wydruku.</p>
+                <span>od 70zł</span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+      <div
+        className={expandedEighth ? "card" : "card expanded"}
+        onClick={toggleEighth}
+      >
+        <img src="/images/cards/paint3.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Portret Premium</h1>
+            <div className="body-text">
+            <p>
+            Precyzyjna kolorowa grafika z wyraźnym światłocieniem oraz wyraźnymi szczegółami. 
+
+                </p>
+                <p>Projekt w tej cenie to grafika do samodzielnego wydruku z max 2 postaciami. Grafiki z naszym wydrukiem i większą ilością postaci wyceniamy indywidualnie w zależności od wielkości wydruku.</p>
+                <span>od 80zł</span>
             </div>
           </div>
         </div>
