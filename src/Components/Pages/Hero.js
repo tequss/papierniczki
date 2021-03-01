@@ -7,7 +7,7 @@ import "../Styles/Hero.css";
 import Fade from "react-reveal/Fade";
 import Footer from "../Footer";
 import Offer from "./Offer";
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 class Hero extends Component {
   render() {
     return (
@@ -43,6 +43,12 @@ class Hero extends Component {
                 width="500px"
               />
             </div>
+            <MessengerCustomerChat
+    pageId="107701464316562"
+    appId="1201389683646728"
+    language="pl_PL"
+    themeColor="#CD999D"
+  />
           </main>
           <section className="section5">
             <Offer />
