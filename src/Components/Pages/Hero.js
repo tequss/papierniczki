@@ -48,6 +48,7 @@ class Hero extends Component {
     appId="1201389683646728"
     language="pl_PL"
     themeColor="#CD999D"
+    minimized="true"
   />
           </main>
           <section className="section5">
