@@ -45,8 +45,8 @@ class Hero extends Component {
             </div>
             <MessengerCustomerChat
     pageId="107701464316562"
-    appId="1201389683646728
-    "
+    appId="1201389683646728"
+    language="pl_PL"
   />
           </main>
           <section className="section5">
