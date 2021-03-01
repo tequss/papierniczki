@@ -7,17 +7,17 @@ class Orders extends Component {
   render() {
     return (
       <div className="order-container">
-        <h2>Jak zamówić ? </h2>
+        <h2 style={{ color: "#434343" }}>Jak zamówić ? </h2>
         <div className="aboutorders">
         <div className="cookies-text">
-        <h4>Pierniczki </h4>
+        <h4 style={{ color: "#CD999D" }}>Pierniczki </h4>
 
 <p>1. Zajrzyj do naszej aktualnej oferty i wybierz swój zestaw.</p>
 <p>2. Jeśli chcesz coś oryginalnego zastanów się nad wielkością, kształtem, kolorami i ilości ciasteczek.</p>
 <p>3. Napisz do nas w wiadomości na FB i zamów swój zestaw lub dokładnie opisz zamówienie indywidualne.</p>
         </div>
         <div className="paintings-text">
-        <h4>Portrety</h4>
+        <h4 style={{ color: "#CD999D" }}>Portrety</h4>
 <p>1. Zajrzyj do naszej aktualnej oferty i wybierz styl grafiki.</p>
 <p>2. Przygotuj swoje zdjęcie, które będzie stanowić podstawę grafiki i zastanów się nad wielkością obrazu.</p>
 <p>3. Napisz do nas na FB a my przygotujemy dla Ciebie dokładną wycenę.</p>

@@ -7,7 +7,12 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Aktualna Oferta',
+        title: 'Wielkanoc',
+        url: 'section5',
+        cName: 'nav-links'
+    },
+    {
+        title: 'Stała Oferta',
         url: 'section2',
         cName: 'nav-links'
     },

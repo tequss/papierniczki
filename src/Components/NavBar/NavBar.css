@@ -103,13 +103,14 @@
     }
 
     .nav-links{
+        cursor: pointer;
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
         height: 100%;
         color: #2e2e2e;
-
+       
        
     }
 

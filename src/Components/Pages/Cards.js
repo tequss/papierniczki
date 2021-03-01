@@ -6,7 +6,7 @@ import Cards1 from "../Cards1";
 function Cards() {
   return (
     <div className="offer-container">
-      <h2 style={{ color: "#434343" }}>Aktualna oferta</h2>
+      <h2 style={{ color: "#434343" }}>Stała oferta</h2>
       {/* <span className="mobilespan"> Kliknij w zestaw </span>
       <span className="webspan">Najedź na zestaw</span> */}
       <Cards1/>
