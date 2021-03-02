@@ -6,6 +6,7 @@ function OfferCards(props) {
   const [expandedFirst, setExpandedFirst] = useState(true);
   const [expandedSecond, setExpandedSecond] = useState(true);
   const [expandedThird, setExpandedThird] = useState(true);
+  const [expandedFourth, setExpandedFourth] = useState(true);
   
 
   const toggleFirst = () => {
@@ -19,12 +20,50 @@ function OfferCards(props) {
   const toggleThird = () => {
     setExpandedThird(!expandedThird);
   };
+  const toggleFourth = () => {
+    setExpandedFourth(!expandedFourth);
+  };
 
 
   return (
       
     <div className="cards">
         <Zoom>
+        <div
+        className={expandedFourth ? "card" : "card expanded"}
+        onClick={toggleFourth}
+      >
+        <img src="/images/cards/wielkanoc4.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Zakochane Króliczki</h1>
+            <div className="body-text">
+            <p>
+            2 ręcznie zdobione miodowo-maślane pierniczki.
+                </p>
+                <p>
+                Futerko wykonane lukrem czekoladowym. Każde ciasteczko zapakowane jest w foliowy woreczek z kokardką.
+                </p>
+                
+                <p>Wielkość ciasteczek: 11,5 x 8 cm</p>
+                <span><strong>25zł</strong></span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
       <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
