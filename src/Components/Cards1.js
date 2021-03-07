@@ -90,7 +90,7 @@ Produkt w całości jadalny.
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/cards/card5.JPG" alt="" width="300px" />
+        <img src="/images/cards/card6.JPG" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Dla Niej - Lustro & Lakier</h1>
@@ -132,7 +132,7 @@ Produkt w całości jadalny.
         className={expandedThird ? "card" : "card expanded"}
         onClick={toggleThird}
       >
-        <img src="/images/cards/card6.JPG" alt="" width="300px" />
+        <img src="/images/cards/card5.JPG" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Dla Niej - Perfumy & Szminka </h1>

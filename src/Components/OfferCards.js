@@ -7,6 +7,7 @@ function OfferCards(props) {
   const [expandedSecond, setExpandedSecond] = useState(true);
   const [expandedThird, setExpandedThird] = useState(true);
   const [expandedFourth, setExpandedFourth] = useState(true);
+  const [expandedFifth, setExpandedFifth] = useState(true);
   
 
   const toggleFirst = () => {
@@ -22,6 +23,10 @@ function OfferCards(props) {
   };
   const toggleFourth = () => {
     setExpandedFourth(!expandedFourth);
+  };
+
+  const toggleFifth = () => {
+    setExpandedFifth(!expandedFifth);
   };
 
 
@@ -47,6 +52,45 @@ function OfferCards(props) {
                 
                 <p>Wielkość ciasteczek: 11,5 x 8 cm</p>
                 <span><strong>25zł</strong></span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+      <div
+        className={expandedFifth ? "card" : "card expanded"}
+        onClick={toggleFifth}
+      >
+        <img src="/images/cards/wielkanoc5.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Malowane Pisanki</h1>
+            <div className="body-text">
+            <p>
+            Zestaw trzech miodowo-maślanych pierniczków dekorowanych lukrem królewskim.
+                </p>
+                <p>
+                Kruche cisteczko, biała baza a na niej ręcznie wykonane malunki.
+                </p>
+                <p>
+                Każde ciasteczko zapakowane jest w celafonowy woreczek z kokaradką.
+                </p>
+                
+                
+                <p>Wielkość ciasteczek: 10,5 cm x 8 cm</p>
+                <span>Cena zestawu <strong>30zł</strong></span>
             </div>
           </div>
         </div>

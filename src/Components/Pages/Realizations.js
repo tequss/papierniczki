@@ -9,6 +9,8 @@ function Realizations() {
 
       <div className="realizations-container">
         <Zoom>
+        <img src="/images/galery/portfolio2.jpeg" alt="" />
+        <img src="/images/galery/portfolio1.jpeg" alt="" />
           <img src="/images/galery/galery7.jpg" alt="" />
           <img src="/images/galery/galery10.jpg" alt="" />
           <img src="/images/galery/galery15.JPG" alt="" />
