@@ -197,7 +197,7 @@ function OfferCards(props) {
                 Ciasteczka zapakowane są w jeden celafonowy woreczek i przewiązane złotą wstążeczką.
                 </p>
                 
-                <p>Wysokość jajeczek 6,5 cm</p>
+                <p>Wysokość jajeczek 5,5 cm</p>
                 <span><strong>15zł</strong></span>
             </div>
           </div>
