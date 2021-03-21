@@ -58,7 +58,7 @@ function Cards1(props) {
           <div className="text-content">
           <h1 className="title">Papierczniki</h1>
             <div className="body-text">
-                <p>
+                
                 Zestaw miodowych-maślanych mini pierniczków ręcznie zdobionych lukrem królewskim
 Ilość ciasteczek - 10 sztuk.</p>
 <p>Zapakowane w jeden woreczek przewiązany białą kokardką

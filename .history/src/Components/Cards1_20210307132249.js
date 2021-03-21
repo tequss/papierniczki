@@ -11,7 +11,6 @@ function Cards1(props) {
   const [expandedSixth, setExpandedSixth] = useState(true);
   const [expandedSeventh, setExpandedSeventh] = useState(true);
   const [expandedEighth, setExpandedEighth] = useState(true);
-  const [expandedNinth, setExpandedNinth] = useState(true);
 
   const toggleFirst = () => {
     setExpandedFirst(!expandedFirst);
@@ -41,49 +40,11 @@ function Cards1(props) {
   const toggleEighth = () => {
     setExpandedEighth(!expandedEighth);
   };
-  const toggleNinth = () => {
-    setExpandedNinth(!expandedNinth);
-  }
 
   return (
       
     <div className="cards">
         <Zoom>
-        <div
-        className={expandedFirst ? "card" : "card expanded"}
-        onClick={toggleFirst}
-      >
-        <img src="/images/cards/image0.jpeg" alt="" width="300px" />
-        <div className="text1">
-          <div className="text-content">
-          <h1 className="title">Papierczniki</h1>
-            <div className="body-text">
-                <p>
-                Zestaw miodowych-maślanych mini pierniczków ręcznie zdobionych lukrem królewskim
-Ilość ciasteczek - 10 sztuk.</p>
-<p>Zapakowane w jeden woreczek przewiązany białą kokardką
-Produkt w całości jadalny.</p>
-
-                
-                <p>Wymiary ciastka: 5cm x 5,5cm</p>
-                <span>30zł</span>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="chevron"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 35"
-          width="30"
-        >
-          <path
-            d="M5 30L50 5l45 25"
-            fill="none"
-            stroke="#000"
-            stroke-width="5"
-          />
-        </svg>
-      </div>
       <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}

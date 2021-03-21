@@ -60,11 +60,11 @@ function Cards1(props) {
             <div className="body-text">
                 <p>
                 Zestaw miodowych-maślanych mini pierniczków ręcznie zdobionych lukrem królewskim
-Ilość ciasteczek - 10 sztuk.</p>
-<p>Zapakowane w jeden woreczek przewiązany białą kokardką
-Produkt w całości jadalny.</p>
+Ilość ciasteczek - 10 sztuk.
+Zapakowane w jeden woreczek przewiązany białą kokardką
+Produkt w całości jadalny.
 
-                
+                </p>
                 <p>Wymiary ciastka: 5cm x 5,5cm</p>
                 <span>30zł</span>
             </div>
