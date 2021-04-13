@@ -51,9 +51,9 @@ class Hero extends Component {
     minimized="true"
   />
           </main>
-          {/* <section className="section5">
+          <section className="section5">
             <Offer />
-          </section> */}
+          </section>
           <section className="section2">
             <Cards />
           </section>

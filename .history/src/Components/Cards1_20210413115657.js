@@ -142,7 +142,73 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+        <div
+        className={expandedTenth ? "card" : "card expanded"}
+        onClick={toggleTenth}
+      >
+        <img src="/images/cards/image100.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Ciasteczka indywidualne</h1>
+            <div className="body-text">
+                <p>
+                Minimalne zamówienie to 10 sztuk ciastek</p>
+<p>Wielkość od 8 cm. Wszystkie ciasteczka zapakowane są osobno w celafonowy woreczek z naklejką lub kokardką. </p>
+
+                
+                <p>Cena za sztukę od 8zł</p>
+                <span>Czas oczekiwania - 3 tygodnie</span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+        <div
+        className={expandedEleventh ? "card" : "card expanded"}
+        onClick={toggleEleventh}
+      >
+        <img src="/images/cards/image101.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Ciasteczka firmowe</h1>
+            <div className="body-text">
+            <p>
+                Minimalne zamówienie to 25 sztuk ciastek</p>
+<p>Wielkość od 5 cm. Wszystkie ciasteczka zapakowane są osobno w celafonowy woreczek z naklejką lub kokardką. </p>
+
+                
+                <p>Cena za sztukę od 6zł</p>
+                <span>Czas oczekiwania - 3 tygodnie</span>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+        <div
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
@@ -177,8 +243,6 @@ Produkt w całości jadalny.</p>
           />
         </svg>
       </div>
-        
-        
       <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
@@ -360,72 +424,6 @@ Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
                 </p>
                 <p>Pudełko 20,5 cm x 20,5 cm</p>
                 <span>60zł</span>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="chevron"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 35"
-          width="30"
-        >
-          <path
-            d="M5 30L50 5l45 25"
-            fill="none"
-            stroke="#000"
-            stroke-width="5"
-          />
-        </svg>
-      </div>
-      <div
-        className={expandedTenth ? "card" : "card expanded"}
-        onClick={toggleTenth}
-      >
-        <img src="/images/cards/image100.jpeg" alt="" width="300px" />
-        <div className="text1">
-          <div className="text-content">
-          <h1 className="title">Ciasteczka indywidualne</h1>
-            <div className="body-text">
-                <p>
-                Minimalne zamówienie to 10 sztuk ciastek</p>
-<p>Wielkość od 8 cm. Wszystkie ciasteczka zapakowane są osobno w celafonowy woreczek z naklejką lub kokardką. </p>
-
-                
-                <p>Cena za sztukę od 8zł</p>
-                <span>Czas oczekiwania - 3 tygodnie</span>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="chevron"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 35"
-          width="30"
-        >
-          <path
-            d="M5 30L50 5l45 25"
-            fill="none"
-            stroke="#000"
-            stroke-width="5"
-          />
-        </svg>
-      </div>
-        <div
-        className={expandedEleventh ? "card" : "card expanded"}
-        onClick={toggleEleventh}
-      >
-        <img src="/images/cards/image101.jpeg" alt="" width="300px" />
-        <div className="text1">
-          <div className="text-content">
-          <h1 className="title">Ciasteczka firmowe</h1>
-            <div className="body-text">
-            <p>
-                Minimalne zamówienie to 25 sztuk ciastek</p>
-<p>Wielkość od 5 cm. Wszystkie ciasteczka zapakowane są osobno w celafonowy woreczek z naklejką lub kokardką. </p>
-
-                
-                <p>Cena za sztukę od 6zł</p>
-                <span>Czas oczekiwania - 3 tygodnie</span>
             </div>
           </div>
         </div>
