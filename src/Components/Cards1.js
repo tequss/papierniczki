@@ -16,6 +16,7 @@ function Cards1(props) {
   const [expandedEleventh, setExpandedEleventh] = useState(true);
   const [expandedTwelfth, setExpandedTwelfth] = useState(true);
   const [expandedThirteenth, setExpandedThirteenth] = useState(true);
+  const [expandedFourteenth, setExpandedFourteenth] = useState(true);
 
   const toggleFirst = () => {
     setExpandedFirst(!expandedFirst);
@@ -60,12 +61,52 @@ function Cards1(props) {
   const toggleThirteenth = () => {
     setExpandedThirteenth(!expandedThirteenth);
   }
+  const toogleFourteenth = () => {
+    setExpandedFourteenth(!expandedFourteenth);
+  }
 
 
   return (
       
     <div className="cards">
         <Zoom>
+        <div
+        className={expandedTwelfth ? "card" : "card expanded"}
+        onClick={toggleTwelfth}
+      >
+        <img src="/images/cards/cookieimage.jpeg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Duże Serce</h1>
+            <div className="body-text">
+            <p>
+            Miodowo-maślane serce z białą koronką. Zapakowane w ozdobne pudełeczko z czerowną wstążką.
+                </p>
+                <p>
+                Dodatkowo do ciasteczka dołączamy jedną z naszych okazjonalnych kartek.
+                </p>
+                <p>
+                Pudełko 13,5 cm x 13,5 cm
+                </p>
+                
+                <p>Cena 20 zł</p>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
         <div
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
