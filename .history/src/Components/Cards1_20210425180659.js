@@ -64,16 +64,16 @@ function Cards1(props) {
   const toggleThirteenth = () => {
     setExpandedThirteenth(!expandedThirteenth);
   }
-  const toggleFourteenth = () => {
+  const toogleFourteenth = () => {
     setExpandedFourteenth(!expandedFourteenth);
   }
-  const toggleFifteenth = () => {
+  const toogleFifteenth = () => {
     setExpandedFifteenth(!expandedFifteenth);
   }
-  const toggleSixteenth = () => {
+  const toogleSixteenth = () => {
     setExpandedSixteenth(!expandedSixteenth);
   }
-  const toggleSeventeenth = () => {
+  const toogleSeventeenth = () => {
     setExpandedSeventeenth(!expandedSeventeenth);
   }
 

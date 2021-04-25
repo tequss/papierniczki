@@ -64,16 +64,16 @@ function Cards1(props) {
   const toggleThirteenth = () => {
     setExpandedThirteenth(!expandedThirteenth);
   }
-  const toggleFourteenth = () => {
+  const toogleFourteenth = () => {
     setExpandedFourteenth(!expandedFourteenth);
   }
-  const toggleFifteenth = () => {
+  const toogleFifteenth = () => {
     setExpandedFifteenth(!expandedFifteenth);
   }
-  const toggleSixteenth = () => {
+  const toogleSixteenth = () => {
     setExpandedSixteenth(!expandedSixteenth);
   }
-  const toggleSeventeenth = () => {
+  const toogleSeventeenth = () => {
     setExpandedSeventeenth(!expandedSeventeenth);
   }
 
@@ -123,10 +123,10 @@ function Cards1(props) {
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
-        <img src="/images/cards/mama2.jpeg" alt="" width="300px" />
+        <img src="/images/cards/cookieimage.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kwiaty</h1>
+          <h1 className="title">Duże Serce</h1>
             <div className="body-text">
             <p>
             Zestaw 4 ciasteczek. Ozdobne kwiaty wykonane są z lukru królewskiego.
@@ -161,23 +161,22 @@ function Cards1(props) {
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/cards/mama3.jpg" alt="" width="300px" />
+        <img src="/images/cards/cookieimage.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Serduszka mama</h1>
+          <h1 className="title">Duże Serce</h1>
             <div className="body-text">
             <p>
-            Zestaw 4 mini serduszek z literkami MAMA.
+            Miodowo-maślane serce z białą koronką. Zapakowane w ozdobne pudełeczko z czerowną wstążką.
                 </p>
                 <p>
-                Ciasteczka zapakowane są w ozdobne pudełeczko z kokardką. 
+                Dodatkowo do ciasteczka dołączamy jedną z naszych okazjonalnych kartek.
                 </p>
                 <p>
-                Zestaw zawiera również jedną z naszych okazjonalnych kartek.
+                Pudełko 13,5 cm x 13,5 cm
                 </p>
-                <p>Pudełko 13,5 cm x 13,5 cm</p>
                 
-                <p>Cena 25 zł</p>
+                <p>Cena 20 zł</p>
             </div>
           </div>
         </div>

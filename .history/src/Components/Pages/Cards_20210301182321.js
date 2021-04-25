@@ -7,10 +7,8 @@ function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Stała oferta</h2>
-      <h3>Uwaga!</h3>
-      <div className="allert">
-      <p>Wysyłka ciasteczek z okazji Dnia Mamy będzie realizowana 20 maja. W razie chęci otrzymania zamówienia we wcześniejszym terminie prosimy o kontakt.</p>
-      </div>
+      {/* <span className="mobilespan"> Kliknij w zestaw </span>
+      <span className="webspan">Najedź na zestaw</span> */}
       <Cards1/>
       {/* <div className="flip-boxes">
         <Zoom>
