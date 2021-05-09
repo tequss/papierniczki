@@ -13,9 +13,7 @@ class Hero extends Component {
     return (
       <>
       <img src="/images/budowa.png"
-      alt=""
-      width="1000"
-      margin="0 0 auto" />
+      alt="" />
         {/* <body className="body-hero">
           <main>
             <div className="hero-container">
