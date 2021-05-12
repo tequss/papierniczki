@@ -12,7 +12,11 @@ class Hero extends Component {
   render() {
     return (
       <>
-        <body className="body-hero">
+      <img src="/images/budowa.png"
+      alt=""
+      width="1000"
+     />
+        {/* <body className="body-hero">
           <main>
             <div className="hero-container">
               <div className="hero-text">
@@ -63,7 +67,7 @@ class Hero extends Component {
             <Orders />
           </section>
           <Footer/>
-        </body>
+        </body> */}
       </>
     );
   }
