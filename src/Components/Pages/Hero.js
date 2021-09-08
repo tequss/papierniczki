@@ -52,7 +52,7 @@ class Hero extends Component {
   />
           </main>
           
-          <section className="section2">
+          {/* <section className="section2">
             <Cards />
           </section>
           
@@ -62,7 +62,7 @@ class Hero extends Component {
           <section className="section4">
             <Orders />
           </section>
-          <Footer/>
+          <Footer/> */}
         </body>
       </>
     );

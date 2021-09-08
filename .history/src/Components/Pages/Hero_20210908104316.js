@@ -24,7 +24,7 @@ class Hero extends Component {
                 <Fade right>
                   <h1 style={{ color: "#CD999D" }}>PAPIERNICZKI</h1>
                 </Fade>
-                <h3>
+                {/* <h3>
                   Co tu znajdziecie? <br /> Dwie siostry: Pani od plastyki i
                   Pani dietetyk, a w koło wszystko co artystyczne zrobione z
                   papieru i pierniczków.{" "}
@@ -51,9 +51,7 @@ class Hero extends Component {
     minimized="true"
   />
           </main>
-          {/* <section className="section5">
-            <Offer />
-          </section> */}
+          
           <section className="section2">
             <Cards />
           </section>
@@ -64,7 +62,7 @@ class Hero extends Component {
           <section className="section4">
             <Orders />
           </section>
-          <Footer/>
+          <Footer/> */}
         </body>
       </>
     );

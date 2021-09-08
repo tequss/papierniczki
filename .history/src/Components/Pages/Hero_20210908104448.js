@@ -12,10 +12,7 @@ class Hero extends Component {
   render() {
     return (
       <>
-      <img src="/images/budowa.png"
-      alt=""
-      width="100vh" />
-        {/* <body className="body-hero">
+        <body className="body-hero">
           <main>
             <div className="hero-container">
               <div className="hero-text">
@@ -55,7 +52,7 @@ class Hero extends Component {
   />
           </main>
           
-          <section className="section2">
+          {/* <section className="section2">
             <Cards />
           </section>
           
@@ -65,8 +62,8 @@ class Hero extends Component {
           <section className="section4">
             <Orders />
           </section>
-          <Footer/>
-        </body> */}
+          <Footer/> */}
+        </body>
       </>
     );
   }
