@@ -91,10 +91,10 @@ function Cards1(props) {
           <h1 className="title">Kalendarz Adwentowy</h1>
             <div className="body-text">
             <p>
-            Zestaw 25 mini pierniczków zapakowanych <br /> w ozdobne pudełko. 
+            Zestaw 25 mini pierniczków zakapowanych w ozdobne pudełko. 
                 </p>
                 <p>
-                Każdy pierniczek z zestawu jest inny.
+                Każdy pierniczki z zestawu jest inny.
                 </p>
                 <p>
                 Wielkość pierniczka 4x4cm 

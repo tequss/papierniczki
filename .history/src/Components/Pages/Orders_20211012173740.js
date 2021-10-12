@@ -10,7 +10,7 @@ class Orders extends Component {
         <h2 style={{ color: "#434343" }}>Jak zamówić ? </h2>
         <div className="aboutorders">
         <div className="cookies-text">
-        {/* <h4 style={{ color: "#CD999D" }}>Pierniczki </h4> */}
+        <h4 style={{ color: "#CD999D" }}>Pierniczki </h4>
 
 <p>1. Zajrzyj do naszej aktualnej oferty.</p>
 <p>2. Wybierz co chcesz zamówić i w jakiej ilości.</p>

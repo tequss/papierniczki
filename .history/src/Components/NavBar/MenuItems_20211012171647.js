@@ -11,11 +11,11 @@ export const MenuItems = [
         url: 'section2',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Portfolio',
-    //     url: 'section3',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Portfolio',
+        url: 'section3',
+        cName: 'nav-links'
+    },
     {
         title: 'Jak zamówić?',
         url: 'section4',

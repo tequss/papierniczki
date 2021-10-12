@@ -3,7 +3,6 @@ import Cards from "./Cards";
 import Orders from "./Orders";
 import Realizations from "./Realizations";
 import Sklad from "./Sklad";
-import Wysylka from "./Wysylka";
 import { Link } from "react-scroll";
 import "../Styles/Hero.css";
 import Fade from "react-reveal/Fade";
@@ -24,10 +23,12 @@ class Hero extends Component {
                   </h1>
                 </Fade>
                 <Fade right>
-                  <h1 style={{ color: "#CD999D" }}>PAPIERNICZKÓW</h1>
+                  <h1 style={{ color: "#CD999D" }}>PAPIERNICZKI</h1>
                 </Fade>
                 <h3>
-                  Co tu znajdziecie? <br /> Coś pięknego dla oka i smacznego dla brzuszka{" "}
+                  Co tu znajdziecie? <br /> Dwie siostry: Pani od plastyki i
+                  Pani dietetyk, a w koło wszystko co artystyczne zrobione z
+                  papieru i pierniczków.{" "}
                 </h3>
 
                 <button>
@@ -64,9 +65,6 @@ class Hero extends Component {
           </section>
           <section className="section5">
             <Sklad />
-          </section>
-          <section className="section6">
-            <Wysylka />
           </section>
           <Footer/>
         </body>

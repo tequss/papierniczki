@@ -94,7 +94,7 @@ function Cards1(props) {
             Zestaw 25 mini pierniczków zapakowanych <br /> w ozdobne pudełko. 
                 </p>
                 <p>
-                Każdy pierniczek z zestawu jest inny.
+                Każdy pierniczki z zestawu jest inny.
                 </p>
                 <p>
                 Wielkość pierniczka 4x4cm 

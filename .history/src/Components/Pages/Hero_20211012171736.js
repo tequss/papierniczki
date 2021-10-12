@@ -3,7 +3,7 @@ import Cards from "./Cards";
 import Orders from "./Orders";
 import Realizations from "./Realizations";
 import Sklad from "./Sklad";
-import Wysylka from "./Wysylka";
+import Wysylka from "./Sklad";
 import { Link } from "react-scroll";
 import "../Styles/Hero.css";
 import Fade from "react-reveal/Fade";

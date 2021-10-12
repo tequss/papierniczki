@@ -11,11 +11,11 @@ export const MenuItems = [
         url: 'section2',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Portfolio',
-    //     url: 'section3',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Portfolio',
+        url: 'section3',
+        cName: 'nav-links'
+    },
     {
         title: 'Jak zamówić?',
         url: 'section4',
@@ -24,11 +24,6 @@ export const MenuItems = [
     {
         title: 'Skład',
         url: 'section5',
-        cName: 'nav-links'
-    },
-    {
-        title: 'Wysyłka/Odbiór',
-        url: 'section6',
         cName: 'nav-links'
     },
    

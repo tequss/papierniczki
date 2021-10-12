@@ -88,20 +88,20 @@ function Cards1(props) {
         <img src="/images/kalendarz.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kalendarz Adwentowy</h1>
+          <h1 className="title">MAMA</h1>
             <div className="body-text">
             <p>
-            Zestaw 25 mini pierniczków zapakowanych <br /> w ozdobne pudełko. 
+            Zestaw 4 bogato zdobionych ciastek z napisem mama. 
                 </p>
                 <p>
-                Każdy pierniczek z zestawu jest inny.
+                Ciasteczka zapakowane są w ozdobne pudełeczko, przewiązane ozdobną fioletową wstążką.
                 </p>
                 <p>
-                Wielkość pierniczka 4x4cm 
+                Do zestawu dołączamy jedną z naszych okazjonalnych kartek.
                 </p>
-                <p>Wielkość pudełka 28x28cm</p>
+                <p>Pudełko 20,5 cm x 20,5 cm</p>
                 
-                <p>Cena 130 zł</p>
+                <p>Cena 60 zł</p>
             </div>
           </div>
         </div>

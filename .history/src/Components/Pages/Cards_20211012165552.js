@@ -9,7 +9,7 @@ function Cards() {
       <h2 style={{ color: "#434343" }}>Boże Narodzenie</h2>
       <h3>Uwaga!</h3>
       <div className="allert">
-      <p>Wysyłka zamówień złożonych do 10 listopada (w tym kalendarzy adwentowych) będzie realizowana 25 listopada. Odbiór osobisty w Łodzi - 26 listopada, w Gorzkowicach - 27 listopada.</p>
+      <p>Wysyłka ciasteczek z okazji Dnia Mamy będzie realizowana 20 maja. W razie chęci otrzymania zamówienia we wcześniejszym terminie prosimy o kontakt.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">
