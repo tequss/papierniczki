@@ -476,7 +476,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      {/* <div
+      <div
         className={expandedFifth ? "card" : "card expanded"}
         onClick={toggleFifth}
       >
@@ -676,7 +676,7 @@ Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
             stroke-width="5"
           />
         </svg>
-      </div> */}
+      </div>
       </Zoom>
     </div>
     

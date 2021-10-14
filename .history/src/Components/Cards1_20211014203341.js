@@ -440,25 +440,30 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedFourth ? "card" : "card expanded"}
         onClick={toggleFourth}
       >
-        <img src="/images/2021/laska.jpg" alt="" width="300px" />
+        <img src="/images/cards/card7.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Laska Cukrowa</h1>
+          <h1 className="title">Zestaw Chłopczyk</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik zapakowany w celofanowy woreczek przewiązany czerwoną kokardką.
+            Okolicznościowy zestaw dla chłopca.
                 </p>
                 <p>
-                Wielkość 12x7,5cm
+                Zawiera 4 miodowe pierniczki: konik, body, wózek, miś. 
                 </p>
                 <p>
-                Cena 9 zł sztuka
+                Wszystkie zdobienia wykonane są lukrem królewskim.
+Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
+Produkt w całości jadalny.
+
+
                 </p>
-                
+                <p>Pudełko 20,5 cm x 20,5 cm</p>
+                <span>60zł</span>
             </div>
           </div>
         </div>
@@ -476,7 +481,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      {/* <div
+      <div
         className={expandedFifth ? "card" : "card expanded"}
         onClick={toggleFifth}
       >
