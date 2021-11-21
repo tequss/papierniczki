@@ -85,23 +85,19 @@ function Cards1(props) {
         className={expandedFifteenth ? "card" : "card expanded"}
         onClick={toggleFifteenth}
       >
-        <img src="/images/kalendarz.jpeg" alt="" width="300px" />
+        <img src="/images/2021/mini.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kalendarz Adwentowy</h1>
+          <h1 className="title">Mini Święta</h1>
             <div className="body-text">
             <p>
-            Zestaw 25 mini pierniczków zapakowanych <br /> w ozdobne pudełko. 
+            Zestaw 5 mini pierniczków zapakowanych <br />w jeden celofanowy woreczek z kokardką. 
                 </p>
                 <p>
-                Każdy pierniczki z zestawu jest inny.
+                Wielkość pierniczków około 6 cm.
                 </p>
-                <p>
-                Wielkość pierniczka 4x4cm 
-                </p>
-                <p>Wielkość pudełka 28x28cm</p>
                 
-                <p>Cena 130 zł</p>
+                <p>Cena 40 zł</p>
             </div>
           </div>
         </div>
@@ -119,27 +115,27 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      {/* <div
+      <div
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
-        <img src="/images/cards/mama2.jpeg" alt="" width="300px" />
+        <img src="/images/2021/klasyk.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kwiaty</h1>
+          <h1 className="title">Zestaw Świąteczny Klasyk</h1>
             <div className="body-text">
             <p>
-            Zestaw 4 ciasteczek. Ozdobne kwiaty wykonane są z lukru królewskiego.
+            Zestaw 4 pierniczków: choinka, jemioła, renifer, śnieżynka.
                 </p>
                 <p>
-                Ciasteczka zapakowane są w ozdobne pudełeczko z fioletową wstążką. 
+                Wszystkie zapakowane w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Do zestawu dołączamy jedną z naszych okazjonalnych kartek. 
+                Możliwość zakupu bez pudełka.
                 </p>
-                <p>Pudełko 15,5 cm x 15,5 cm</p>
+                <p>Cena w pudełku 55 zł / bez 50 zł</p>
                 
-                <p>Cena 30 zł</p>
+                <p>Pudełko 21x21cm</p>
             </div>
           </div>
         </div>
@@ -161,23 +157,23 @@ function Cards1(props) {
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/cards/mama3.jpg" alt="" width="300px" />
+        <img src="/images/2021/choinka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Serduszka mama</h1>
+          <h1 className="title">Zestaw Na Choinkę</h1>
             <div className="body-text">
             <p>
-            Zestaw 4 mini serduszek z literkami MAMA.
+            Zestaw 4 pierniczków: bombka, śnieżynka, dzwonek, gwiazdka.
                 </p>
                 <p>
-                Ciasteczka zapakowane są w ozdobne pudełeczko z kokardką. 
+                Każdy pierniczek ma dziurkę i dowiązana czerwoną wstążkę.
                 </p>
                 <p>
-                Zestaw zawiera również jedną z naszych okazjonalnych kartek.
+                Wszystkie zapakowane w ozdobne pudełko.
                 </p>
-                <p>Pudełko 13,5 cm x 13,5 cm</p>
+                <p>Cena w pudełku 55 zł / bez 50 zł</p>
                 
-                <p>Cena 25 zł</p>
+                <p>Pudełko 21x21cm</p>
             </div>
           </div>
         </div>
@@ -199,22 +195,22 @@ function Cards1(props) {
         className={expandedFourteenth ? "card" : "card expanded"}
         onClick={toggleFourteenth}
       >
-        <img src="/images/cards/cookieimage.jpg" alt="" width="300px" />
+        <img src="/images/2021/pierniki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Duże Serce</h1>
+          <h1 className="title">Zestaw Piernikowe Ludki</h1>
             <div className="body-text">
             <p>
-            Miodowo-maślane serce z białą koronką. Zapakowane w ozdobne pudełeczko z czerowną wstążką.
+            Zestaw 2 pierniczków zapakowanych w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Dodatkowo do ciasteczka dołączamy jedną z naszych okazjonalnych kartek.
+                Zdobione kakaowym lukrem królewskim.
                 </p>
                 <p>
-                Pudełko 13,5 cm x 13,5 cm
+                Cena w pudełku 40 zł / bez 35 zł
                 </p>
                 
-                <p>Cena 20 zł</p>
+                <p>Pudełko 15x15cm</p>
             </div>
           </div>
         </div>
@@ -236,23 +232,21 @@ function Cards1(props) {
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
       >
-        <img src="/images/cards/dzieki1.jpeg" alt="" width="300px" />
+        <img src="/images/2021/mikolaj.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kwieciste Serca</h1>
+          <h1 className="title">Zestaw Mikołaj</h1>
             <div className="body-text">
             <p>
-            Ciasteczka jako podziękowanie dla gości.
+            Zestaw 3 pierniczków: głowa mikołaja, rękawica, laska cukrowa.
                 </p>
                 <p>
-                Możliwość wyboru kolorów kwiatów oraz dopisania daty, napisu lub inicjałów.
+                Wszystkie zapakowane w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Każde ciasteczko zapakowane jest w woreczek celafonowy zaklejony naszą naklejką.
+                Cena w pudełku 45 zł / bez 40 zł
                 </p>
-                <p>Możliwość dowiązania kokardki oraz bileciku z dłuższym tekstem.</p>
-                <p>3 wielkość 9 x 9 cm / 7,8 x 7,8 cm / 6,5 x 6,5 cm</p>
-                <p>Cena 10 zł / 8,5 zł / 7 zł / sztuka</p>
+                <p>Pudełko 21x11cm</p>
             </div>
           </div>
         </div>
@@ -274,23 +268,18 @@ function Cards1(props) {
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
-        <img src="/images/cards/dzieki2.jpeg" alt="" width="300px" />
+        <img src="/images/2021/kamienica.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Plakietki</h1>
+          <h1 className="title">Kamieniczka</h1>
             <div className="body-text">
             <p>
-            Ciasteczka jako podziękowanie dla gości.
+            Aromatyczny piernik zapakowany w celofanowy woreczek przewiązany czerwoną kokardką.
                 </p>
                 <p>
-                Możliwość wyboru kolorów kwiatów oraz dopisania daty, napisu lub inicjałów.
+                Wielkość 12x7,5cm
                 </p>
-                <p>
-                Każde ciasteczko zapakowane jest w woreczek celafonowy zaklejony naszą naklejką.
-                </p>
-                <p>Możliwość dowiązania kokardki oraz bileciku z dłuższym tekstem.</p>
-                <p>Wielkość 9 x 9 cm.</p>
-                <p>Cena 10 zł / sztuka</p>
+                <p>Cena 12 zł sztuka</p>
             </div>
           </div>
         </div>
@@ -312,20 +301,16 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/cards/image0.jpeg" alt="" width="300px" />
+        <img src="/images/2021/auto.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Papierczniki</h1>
+          <h1 className="title">Auto z choinką</h1>
             <div className="body-text">
-                <p>
-                Zestaw miodowych-maślanych mini pierniczków ręcznie zdobionych lukrem królewskim
-Ilość ciasteczek - 10 sztuk.</p>
-<p>Zapakowane w jeden woreczek przewiązany białą kokardką
-Produkt w całości jadalny.</p>
+                <p>Duży piernik zapakowany w celofanowy woreczek przewiązany złotą kokardką.</p>
+<p>Wielkość 13x9cm</p>
 
                 
-                <p>Wymiary ciastka: 5cm x 5,5cm</p>
-                <span>30zł</span>
+                <p>Cena 17 zł sztuka</p>
             </div>
           </div>
         </div>
@@ -349,26 +334,20 @@ Produkt w całości jadalny.</p>
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/cards/komunia.jpeg" alt="" width="300px" />
+        <img src="/images/2021/domek.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Komunijny </h1>
+          <h1 className="title">Piernikowy domek</h1>
             <div className="body-text">
             <p>
-            Zestaw czterech ręcznie zdobionych miodowo-maślanych pierniczków zdobionych lukrem królewskim i jadalnym złotem. 
+            Duży piernik zapakowany w celofanowy woreczek przewiązany zieloną kokardką.
                 </p>
                 <p>
-                Ciasteczka: kielich, skrzydełka, "IHS", "Pierwsza Komunia Święta".
+                Wielkość 13x9cm
                 </p>
                 <p>
-                Całość zapakowana w ozdobne pudełko z zieloną wstążką.
+                Cena 18 zł sztuka
                 </p>
-                <p>
-                Produkt w całości jadalny.
-
-                </p>
-                <p>Pudełko 20,5 cm x 20,5 cm</p>
-                <span>Cena 50 zł</span>
             </div>
           </div>
         </div>
@@ -390,24 +369,20 @@ Produkt w całości jadalny.</p>
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/cards/chrzest2.jpg" alt="" width="300px" />
+        <img src="/images/2021/dzwonek.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Chłopiec</h1>
+          <h1 className="title">Świąteczny dzwonek</h1>
             <div className="body-text">
             <p>
-            Zestaw czterech ręcznie zdobionych miodowo-maślanych pierniczków zdobionych lukrem królewskim i jadalnym złotem. Możliwość dopisania imienia i daty.
-
+            Duży piernik zapakowany w celofanowy woreczek przewiązany złotą kokardką.
                 </p>
                 <p>
-                Ciasteczka: body, skrzydełka, Chrzest Święty, katarzynka z gałązką.
+                Wielkość 13x9cm
                 </p>
                 <p>
-                Całość zapakowana w ozdobne pudełko z zieloną wstążką.
+                Cena 19 zł sztuka
                 </p>
-                <p>Produkt w całości jadalny.</p>
-                <p>Pudełko 9,5 cm x 20 cm</p>
-                <span>Cena 50zł</span>
             </div>
           </div>
         </div>
@@ -429,24 +404,21 @@ Produkt w całości jadalny.</p>
         className={expandedThird ? "card" : "card expanded"}
         onClick={toggleThird}
       >
-        <img src="/images/cards/chrzest1.jpg" alt="" width="300px" />
+        <img src="/images/2021/sniezynka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Dziewczynka</h1>
+          <h1 className="title">Śnieżynka XXL</h1>
             <div className="body-text">
             <p>
-            Zestaw czterech ręcznie zdobionych miodowo-maślanych pierniczków zdobionych lukrem królewskim i jadalnym złotem. Możliwość dopisania imienia i daty.
-
+            Ażurowy piernik do powieszenia na choinkę.
                 </p>
                 <p>
-                Ciasteczka: sukienka, skrzydełka, Chrzest Święty, katarzynka z gałązką.
+                Zapakowany w celofanowy woreczek z czerwoną kokardką.
                 </p>
                 <p>
-                Całość zapakowana w ozdobne pudełko z zieloną wstążką.
+                Wielkość 20x18cm
                 </p>
-                <p>Produkt w całości jadalny.</p>
-                <p>Pudełko 9,5 cm x 20 cm</p>
-                <span>Cena 50zł</span>
+                <p>Cena 29 zł sztuka</p>
             </div>
           </div>
         </div>
@@ -468,26 +440,21 @@ Produkt w całości jadalny.</p>
         className={expandedFourth ? "card" : "card expanded"}
         onClick={toggleFourth}
       >
-        <img src="/images/cards/card7.jpg" alt="" width="300px" />
+        <img src="/images/2021/laska.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Chłopczyk</h1>
+          <h1 className="title">Laska Cukrowa</h1>
             <div className="body-text">
             <p>
-            Okolicznościowy zestaw dla chłopca.
+            Aromatyczny piernik zapakowany w celofanowy woreczek przewiązany czerwoną kokardką.
                 </p>
                 <p>
-                Zawiera 4 miodowe pierniczki: konik, body, wózek, miś. 
+                Wielkość 12x7,5cm
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są lukrem królewskim.
-Całość zapakowana w ozdobne pudełeczko przewiązane wstążką.
-Produkt w całości jadalny.
-
-
+                Cena 9 zł sztuka
                 </p>
-                <p>Pudełko 20,5 cm x 20,5 cm</p>
-                <span>60zł</span>
+                
             </div>
           </div>
         </div>
@@ -505,7 +472,7 @@ Produkt w całości jadalny.
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedFifth ? "card" : "card expanded"}
         onClick={toggleFifth}
       >

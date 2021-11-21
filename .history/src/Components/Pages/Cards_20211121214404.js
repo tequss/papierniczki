@@ -10,6 +10,7 @@ function Cards() {
       <h3>Uwaga!</h3>
       <div className="allert">
       <p>Wysyłka zamówień złożonych do 10 listopada (w tym kalendarzy adwentowych) będzie realizowana 25 listopada. Odbiór osobisty w Łodzi - 26 listopada, w Gorzkowicach - 27 listopada.</p>
+      <p>Zamówienia świąteczne przyjmujemy do 10 grudnia.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">

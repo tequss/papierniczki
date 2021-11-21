@@ -11,17 +11,16 @@ class Wysylka extends Component {
         <div className="aboutorders">
         <div className="cookies-text">
         <h4 style={{ color: "#CD999D" }}>Wysyłka</h4>
-        <p>Paczki wysyłamy za pośrednictwem kuriera lub paczkomatu. Koszt wysyłki to 25 zł niezależnie od wielkości paczki.<br /> Wysyłka zamówień świątecznych złożonych do 10 listopada (w tym kalendarzy adwentowych) będzie realizowana 25 listopada. </p>
+        <p>Paczki wysyłamy za pośrednictwem kuriera lub paczkomatu. Koszt wysyłki to 25 zł niezależnie od wielkości paczki.</p> <p><b>Wysyłka zamówień świątecznych będzie realizowana od 13 do 16 grudnia.</b> </p>
         </div>
         <div className="paintings-text">
         <h4 style={{ color: "#CD999D" }}>Odbiór</h4>
-<p>Odbiór osobisty możliwy jest w Łodzi lub w Gorzkowicach (łódzkie) po wcześniejszym uzgodnieniu terminu.
-<br/>
-Odbiór osobisty zamówień świątecznych złożonych do 10 listopada (w tym kalendarzy adwentowych) będzie realizowany w Łodzi - 26 listopada, w Gorzkowicach - 27 listopada
+<p>Odbiór osobisty możliwy jest w Łodzi lub w Gorzkowicach (łódzkie) po wcześniejszym uzgodnieniu terminu.</p>
+<p>
+<b>Odbiór osobisty zamówień świątecznych złożonych do 10 listopada (w tym kalendarzy adwentowych) będzie realizowany w Łodzi - 26 listopada, w Gorzkowicach - 27 listopada.</b></p>
 
-<p><b>Nasze pierniczki są w całości jadalne!</b> </p>
  
-</p>
+
         </div>
         </div>
       </div>

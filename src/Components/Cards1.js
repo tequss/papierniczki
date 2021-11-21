@@ -85,23 +85,19 @@ function Cards1(props) {
         className={expandedFifteenth ? "card" : "card expanded"}
         onClick={toggleFifteenth}
       >
-        <img src="/images/kalendarz.jpeg" alt="" width="300px" />
+        <img src="/images/2021/mini.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kalendarz Adwentowy</h1>
+          <h1 className="title">Mini Święta</h1>
             <div className="body-text">
             <p>
-            Zestaw 25 mini pierniczków zapakowanych <br /> w ozdobne pudełko. 
+            Zestaw 5 mini pierniczków zapakowanych <br />w jeden celofanowy woreczek z kokardką. 
                 </p>
                 <p>
-                Każdy pierniczek z zestawu jest inny.
+                Wielkość pierniczków około 6 cm.
                 </p>
-                <p>
-                Wielkość pierniczka 4x4cm 
-                </p>
-                <p>Wielkość pudełka 28x28cm</p>
                 
-                <p>Cena 130 zł</p>
+                <p>Cena 40 zł</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,8 @@ function Cards() {
       <h2 style={{ color: "#434343" }}>Boże Narodzenie</h2>
       <h3>Uwaga!</h3>
       <div className="allert">
-      <p>Wysyłka ciasteczek z okazji Dnia Mamy będzie realizowana 20 maja. W razie chęci otrzymania zamówienia we wcześniejszym terminie prosimy o kontakt.</p>
+      
+      <p>Zamówienia świąteczne przyjmujemy do 10 grudnia. Wysyłki będziemy realizować 16 grudnia.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">

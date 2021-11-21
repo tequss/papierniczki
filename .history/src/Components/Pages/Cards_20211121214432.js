@@ -10,7 +10,7 @@ function Cards() {
       <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia świąteczne przyjmujemy do 10 grudnia. Wysyłki będziemy realizować od 13 do 16 grudnia.</p>
+      <p>Zamówienia świąteczne przyjmujemy do 10 grudnia.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">
