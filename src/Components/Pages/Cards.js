@@ -6,11 +6,11 @@ import Cards1 from "../Cards1";
 function Cards() {
   return (
     <div className="offer-container">
-      <h2 style={{ color: "#434343" }}>Boże Narodzenie</h2>
+      <h2 style={{ color: "#434343" }}>Dzień Babci i Dzień Dziadka</h2>
       <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia świąteczne przyjmujemy do 16 grudnia. Wysyłki będziemy realizować  20 i 21 grudnia.</p>
+      <p>Zamówienia na Dzień Babci i Dzień Dziadka przyjmujemy do 14 stycznia. Wysyłki będziemy realizować 17 i 18 stycznia.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">
