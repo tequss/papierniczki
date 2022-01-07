@@ -211,7 +211,7 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
+                <p>W pudełku 15 x 15cm - cena 28zł</p>
                 <p>
                 Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
                 </p>
@@ -238,24 +238,21 @@ function Cards1(props) {
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
       >
-        <img src="/images/2021/babci.jpg" alt="" width="300px" />
+        <img src="/images/2021/mikolaj.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanej Babci</h1>
+          <h1 className="title">Zestaw Mikołaj</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanej Babci.
+            Zestaw 3 pierniczków: głowa mikołaja, rękawica, laska cukrowa.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Wszystkie zapakowane w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Produkt w całości jadalny.
+                Cena w pudełku 45 zł / bez 40 zł
                 </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
-                <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
-                </p>
+                <p>Pudełko 21x11cm</p>
             </div>
           </div>
         </div>
@@ -277,24 +274,18 @@ function Cards1(props) {
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
-        <img src="/images/2021/dziadkowi.jpg" alt="" width="300px" />
+        <img src="/images/2021/kamienica.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanemu dziadkowi</h1>
+          <h1 className="title">Kamieniczka</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanego Dziadka.
+            Aromatyczny piernik zapakowany w celofanowy woreczek przewiązany czerwoną kokardką.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Wielkość 12x7,5cm
                 </p>
-                <p>
-                Produkt w całości jadalny.
-                </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
-                <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
-                </p>
+                <p>Cena 12 zł sztuka</p>
             </div>
           </div>
         </div>

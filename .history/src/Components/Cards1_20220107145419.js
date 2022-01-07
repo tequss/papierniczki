@@ -85,19 +85,19 @@ function Cards1(props) {
         className={expandedFifteenth ? "card" : "card expanded"}
         onClick={toggleFifteenth}
       >
-        <img src="/images/kalendarz.jpeg" alt="" width="300px" />
+        <img src="/images/2021/dladziadkow.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Mini Święta</h1>
+          <h1 className="title">Dla Babci i Dziadka</h1>
             <div className="body-text">
             <p>
-            Zestaw 5 mini pierniczków zapakowanych <br />w jeden celofanowy woreczek z kokardką. 
+            Zestaw 4 aromatycznych pierników<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. 
                 </p>
                 <p>
-                Wielkość pierniczków około 6 cm.
+                Pudełko 21 x 21 cm
                 </p>
                 
-                <p>Cena 40 zł</p>
+                <p>Cena 69 zł</p>
             </div>
           </div>
         </div>
@@ -119,23 +119,24 @@ function Cards1(props) {
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
-        <img src="/images/2021/klasyk.jpg" alt="" width="300px" />
+        <img src="/images/2021/dlababci.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Świąteczny Klasyk</h1>
+          <h1 className="title">Dla Babci</h1>
             <div className="body-text">
             <p>
-            Zestaw 4 pierniczków: choinka, jemioła, renifer, śnieżynka.
+            Zestaw 2 pierników w pudełku: konefka + literka "B"
                 </p>
                 <p>
-                Wszystkie zapakowane w ozdobne pudełko przewiązane wstążką.
+                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
                 </p>
                 <p>
-                Możliwość zakupu bez pudełka.
+                Produkt w całości jadalny.
                 </p>
-                <p>Cena w pudełku 55 zł / bez 50 zł</p>
+                <p>Pudełko 22 x 15 cm</p>
+                <p>Cena 45 zł</p>
                 
-                <p>Pudełko 21x21cm</p>
+                
             </div>
           </div>
         </div>

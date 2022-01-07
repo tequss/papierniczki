@@ -197,26 +197,22 @@ function Cards1(props) {
         className={expandedFourteenth ? "card" : "card expanded"}
         onClick={toggleFourteenth}
       >
-        <img src="/images/2021/dziadkom.jpg" alt="" width="300px" />
+        <img src="/images/2021/pierniki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanym Dziadkom</h1>
+          <h1 className="title">Zestaw Piernikowe Ludki</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanych Dziadków.
+            Zestaw 2 pierniczków zapakowanych w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Zdobione kakaowym lukrem królewskim.
                 </p>
                 <p>
-                Produkt w całości jadalny.
-                </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
-                <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
+                Cena w pudełku 40 zł / bez 35 zł
                 </p>
                 
-                
+                <p>Pudełko 15x15cm</p>
             </div>
           </div>
         </div>
@@ -238,24 +234,21 @@ function Cards1(props) {
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
       >
-        <img src="/images/2021/babci.jpg" alt="" width="300px" />
+        <img src="/images/2021/mikolaj.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanej Babci</h1>
+          <h1 className="title">Zestaw Mikołaj</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanej Babci.
+            Zestaw 3 pierniczków: głowa mikołaja, rękawica, laska cukrowa.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Wszystkie zapakowane w ozdobne pudełko przewiązane wstążką.
                 </p>
                 <p>
-                Produkt w całości jadalny.
+                Cena w pudełku 45 zł / bez 40 zł
                 </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
-                <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
-                </p>
+                <p>Pudełko 21x11cm</p>
             </div>
           </div>
         </div>
@@ -277,24 +270,18 @@ function Cards1(props) {
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
-        <img src="/images/2021/dziadkowi.jpg" alt="" width="300px" />
+        <img src="/images/2021/kamienica.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanemu dziadkowi</h1>
+          <h1 className="title">Kamieniczka</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanego Dziadka.
+            Aromatyczny piernik zapakowany w celofanowy woreczek przewiązany czerwoną kokardką.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Wielkość 12x7,5cm
                 </p>
-                <p>
-                Produkt w całości jadalny.
-                </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
-                <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
-                </p>
+                <p>Cena 12 zł sztuka</p>
             </div>
           </div>
         </div>
