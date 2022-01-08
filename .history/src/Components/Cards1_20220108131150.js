@@ -154,19 +154,19 @@ function Cards1(props) {
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/2021/dladziadka2.jpg" alt="" width="300px" />
+        <img src="/images/2021/dzwonek.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Dziadek</h1>
+          <h1 className="title">Świąteczny dzwonek</h1>
             <div className="body-text">
             <p>
-            Zestaw trzech piernikó w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+            Duży piernik zapakowany w celofanowy woreczek przewiązany złotą kokardką.
                 </p>
                 <p>
-                Pudełko 22 x 15 cm
+                Wielkość 13x9cm
                 </p>
                 <p>
-                Cena 49 zł
+                Cena 19 zł sztuka
                 </p>
             </div>
           </div>
