@@ -10,7 +10,7 @@ function Cards() {
       <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia na Dzień Babci i Dzień Dziadka przyjmujemy do 14 stycznia. Wysyłki będziemy realizować 17 i 18 stycznia.</p>
+      <p>Zamówienia na Dzień Babci i Dzień Dziadka przyjmujemy do 15 stycznia. Wysyłki będziemy realizować 17, 18 i 19 stycznia.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">
