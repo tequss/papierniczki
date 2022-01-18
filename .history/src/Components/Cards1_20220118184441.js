@@ -115,7 +115,7 @@ function Cards1(props) {
       </div>
          */}
         
-      <div
+      {/* <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
@@ -125,16 +125,13 @@ function Cards1(props) {
           <h1 className="title">Babcia</h1>
             <div className="body-text">
             <p>
-            Zestaw trzech pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+            Zestaw trzech piernikó w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
                 </p>
                 <p>
                 Pudełko 22 x 15 cm
                 </p>
                 <p>
                 Cena 49 zł 
-                </p>
-                <p>
-                Dostępne: 6 zestawów.
                 </p>
             </div>
           </div>
@@ -171,9 +168,6 @@ function Cards1(props) {
                 <p>
                 Cena 49 zł
                 </p>
-                <p>
-                Dostępne: 4 zestawy.
-                </p>
             </div>
           </div>
         </div>
@@ -190,7 +184,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       <div
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
