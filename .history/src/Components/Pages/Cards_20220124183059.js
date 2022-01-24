@@ -7,11 +7,11 @@ function Cards() {
   return (
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Walentynki</h2>
-      <h3>Uwaga!</h3>
+      {/* <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia walentynkowe przyjmujemy do 2 lutego. Wysyłki będziemy realizować 8-9 lutego.  </p>
-      </div>
+      <p>Aktualnie nie przyjmujemy juz zamówień z okazji Dnia Babci i Dziadka. Pojedyncze sztuki pojawią się we wtorek. Jeśli jesteś zainteresowany śledź nasz profil na Facebooku i Instagramie</p>
+      </div> */}
       <Cards1/>
       {/* <div className="flip-boxes">
         <Zoom>

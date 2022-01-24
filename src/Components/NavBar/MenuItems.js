@@ -7,7 +7,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Boże Narodzenie',
+        title: 'Walentynki',
         url: 'section2',
         cName: 'nav-links'
     },
