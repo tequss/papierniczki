@@ -10,6 +10,7 @@ import Fade from "react-reveal/Fade";
 import Footer from "../Footer";
 import Offer from "./Offer";
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import OfferCards from "../OfferCards";
 class Hero extends Component {
   render() {
     return (
@@ -54,6 +55,9 @@ class Hero extends Component {
           
           <section className="section2">
             <Cards />
+          </section>
+          <section className="section6">
+            <Offer />
           </section>
           
           <section className="section3">

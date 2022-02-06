@@ -41,7 +41,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/dziewczynka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Dziewczynki</h1>
+          <h1 className="title">Zestaw Dziewczynka</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstąką.
@@ -78,7 +78,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/chlopiec.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Chłopca</h1>
+          <h1 className="title">Zestaw Chłopiec</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
@@ -116,7 +116,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/komunia.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw na Komunię</h1>
+          <h1 className="title">Zestaw Komunia</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 

@@ -38,22 +38,20 @@ function OfferCards(props) {
         className={expandedFourth ? "card" : "card expanded"}
         onClick={toggleFourth}
       >
-        <img src="/images/2022/stalaoferta/dziewczynka.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc4.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Dziewczynki</h1>
+          <h1 className="title">Zakochane Króliczki</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstąką.
+            2 ręcznie zdobione miodowo-maślane pierniczki.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Futerko wykonane lukrem czekoladowym. Każde ciasteczko zapakowane jest w foliowy woreczek z kokardką.
                 </p>
-                <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
-                </p>
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                
+                <p>Wielkość ciasteczek: 11,5 x 8 cm</p>
+                <span><strong>25zł</strong></span>
             </div>
           </div>
         </div>
@@ -75,23 +73,24 @@ function OfferCards(props) {
         className={expandedFifth ? "card" : "card expanded"}
         onClick={toggleFifth}
       >
-        <img src="/images/2022/stalaoferta/chlopiec.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc5.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Chłopca</h1>
+          <h1 className="title">Malowane Pisanki</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw trzech miodowo-maślanych pierniczków dekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Kruche cisteczko, biała baza a na niej ręcznie wykonane malunki.
                 </p>
                 <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
+                Każde ciasteczko zapakowane jest w celafonowy woreczek z kokaradką.
                 </p>
                 
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                
+                <p>Wielkość ciasteczek: 10,5 cm x 8 cm</p>
+                <span>Cena zestawu <strong>30zł</strong></span>
             </div>
           </div>
         </div>
@@ -113,22 +112,20 @@ function OfferCards(props) {
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/2022/stalaoferta/komunia.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc2.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw na Komunię</h1>
+          <h1 className="title">Wielkanocna Ferajna</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 5 miodowo-maślanych pierniczków udekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Wszystkie ciasteczka zapakowane są w celafonowy woreczek i przewiązane białką wstążeczką.
                 </p>
-                <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
-                </p>
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                
+                <p>Wielkość + / - 8 cm x 5,5 cm </p>
+                <span><strong>25zł</strong></span>
             </div>
           </div>
         </div>
@@ -150,23 +147,23 @@ function OfferCards(props) {
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/2022/stalaoferta/chrzestdziewczynka.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc3.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Dziewczynki</h1>
+          <h1 className="title">Pijane Kury</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 4 miodowo-maślanych pierniczków udekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Każde ciasteczko zapakowane jest w celafonowy woreczek i przewiązane czerwoną wstążeczką.
                 </p>
                 <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
+                Wysokość kurek 10 cm
+
                 </p>
-                <p>Pudełko 21 x 21 cm</p>
-                
-                <p><strong>Cena 89 zł</strong></p>
+                <p>Zestaw 4 kurek <strong>30zł</strong></p>
+                <span>Zestaw 2 kurek <strong>15zł</strong> (wybierane losowo)</span>
             </div>
           </div>
         </div>
@@ -188,22 +185,20 @@ function OfferCards(props) {
         className={expandedThird ? "card" : "card expanded"}
         onClick={toggleThird}
       >
-        <img src="/images/2022/stalaoferta/chrzestchlopiec.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc1.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Chłopca</h1>
+          <h1 className="title">Złote jajka</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 6 miodowo-maślanych mini pierniczków udekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Ciasteczka zapakowane są w jeden celafonowy woreczek i przewiązane złotą wstążeczką.
                 </p>
-                <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
-                </p>
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                
+                <p>Wysokość jajeczek 5,5 cm</p>
+                <span><strong>15zł</strong></span>
             </div>
           </div>
         </div>

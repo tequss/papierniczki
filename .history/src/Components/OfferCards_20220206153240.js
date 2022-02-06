@@ -41,7 +41,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/dziewczynka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Dziewczynki</h1>
+          <h1 className="title">Zestaw Dziewczynka</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstąką.
@@ -78,7 +78,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/chlopiec.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw dla Chłopca</h1>
+          <h1 className="title">Zestaw Chłopiec</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
@@ -116,7 +116,7 @@ function OfferCards(props) {
         <img src="/images/2022/stalaoferta/komunia.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw na Komunię</h1>
+          <h1 className="title">Zestaw Komunia</h1>
             <div className="body-text">
             <p>
             Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
@@ -150,23 +150,23 @@ function OfferCards(props) {
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/2022/stalaoferta/chrzestdziewczynka.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc3.jpeg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Dziewczynki</h1>
+          <h1 className="title">Pijane Kury</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 4 miodowo-maślanych pierniczków udekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Każde ciasteczko zapakowane jest w celafonowy woreczek i przewiązane czerwoną wstążeczką.
                 </p>
                 <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
+                Wysokość kurek 10 cm
+
                 </p>
-                <p>Pudełko 21 x 21 cm</p>
-                
-                <p><strong>Cena 89 zł</strong></p>
+                <p>Zestaw 4 kurek <strong>30zł</strong></p>
+                <span>Zestaw 2 kurek <strong>15zł</strong> (wybierane losowo)</span>
             </div>
           </div>
         </div>
@@ -188,22 +188,20 @@ function OfferCards(props) {
         className={expandedThird ? "card" : "card expanded"}
         onClick={toggleThird}
       >
-        <img src="/images/2022/stalaoferta/chrzestchlopiec.jpg" alt="" width="300px" />
+        <img src="/images/cards/wielkanoc1.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Chrzest Chłopca</h1>
+          <h1 className="title">Złote jajka</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 6 miodowo-maślanych mini pierniczków udekorowanych lukrem królewskim.
                 </p>
                 <p>
-                Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
+                Ciasteczka zapakowane są w jeden celafonowy woreczek i przewiązane złotą wstążeczką.
                 </p>
-                <p>
-                Pierniki dodatkowo zapakowane są w celofanowe woreczki.
-                </p>
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                
+                <p>Wysokość jajeczek 5,5 cm</p>
+                <span><strong>15zł</strong></span>
             </div>
           </div>
         </div>
