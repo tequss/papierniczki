@@ -25,7 +25,6 @@ function Realizations() {
         <img src="/images/2022/portfolio/g14.jpg" alt="" />
         <img src="/images/2022/portfolio/g15.jpg" alt="" />
         <img src="/images/2022/portfolio/g16.jpg" alt="" />
-        <img src="/images/2022/portfolio/g17.jpg" alt="" />
         <img src="/images/2022/portfolio/g18.jpg" alt="" />
         <img src="/images/2022/portfolio/g19.jpg" alt="" />
         <img src="/images/2022/portfolio/g20.jpg" alt="" />
