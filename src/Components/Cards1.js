@@ -81,7 +81,7 @@ function Cards1(props) {
       
     <div className="cards">
         <Zoom>
-        <div
+        {/* <div
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
@@ -341,7 +341,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       {/* <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}

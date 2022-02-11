@@ -8,8 +8,7 @@ function OfferCards(props) {
   const [expandedThird, setExpandedThird] = useState(true);
   const [expandedFourth, setExpandedFourth] = useState(true);
   const [expandedFifth, setExpandedFifth] = useState(true);
-  const [expandedSixth, setExpandedSixth] = useState(true);
-  const [expandedSeventh, setExpandedSeventh] = useState(true);
+  
 
   const toggleFirst = () => {
     setExpandedFirst(!expandedFirst);
@@ -30,22 +29,14 @@ function OfferCards(props) {
     setExpandedFifth(!expandedFifth);
   };
 
-  const toggleSixth = () => {
-    setExpandedSixth(!expandedSixth);
-  };
-
-  const toggleSeventh = () => {
-    setExpandedSeventh(!expandedSeventh);
-  };
-
 
   return (
       
     <div className="cards">
         <Zoom>
         <div
-        className={expandedSixth ? "card" : "card expanded"}
-        onClick={toggleSixth}
+        className={expandedFifth ? "card" : "card expanded"}
+        onClick={toggleFifth}
       >
         <img src="/images/2022/stalaoferta/swiadkowanie.jpg" alt="" width="300px" />
         <div className="text1">
@@ -82,8 +73,8 @@ function OfferCards(props) {
         </svg>
       </div>
       <div
-        className={expandedSeventh ? "card" : "card expanded"}
-        onClick={toggleSeventh}
+        className={expandedFifth ? "card" : "card expanded"}
+        onClick={toggleFifth}
       >
         <img src="/images/2022/stalaoferta/swiadkowanie2.jpg" alt="" width="300px" />
         <div className="text1">
