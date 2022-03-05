@@ -85,17 +85,17 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/2021/awokado.jpg" alt="" width="300px" />
+        <img src="/images/2021/kobieta.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Awokadowe love</h1>
+          <h1 className="title">Dla Niej</h1>
             <div className="body-text">
-                <p>Zestaw dwóch pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
-                <p>Pierniczki zapakowane są dodatkowo w celofanowy woreczek</p>
+                <p>Aromatyczny, miodowo-maślany piernik dla wyjątkowej kobiety<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
+                <p>Pierniczk dodatkowo zapakowany jest w celofanowy woreczek</p>
 
                 
-                <p>Pudełko 22 x 15 cm</p>
-                <p>Cena 49 zł</p>
+                <p>Pudełko 15 x 15 cm</p>
+                <p>Cena 35 zł</p>
             </div>
           </div>
         </div>
@@ -113,7 +113,46 @@ function Cards1(props) {
           />
         </svg>
       </div>
-        
+      <div
+        className={expandedSeventeenth ? "card" : "card expanded"}
+        onClick={toggleSeventeenth}
+      >
+        <img src="/images/2021/sloniki.jpg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Zakochane Słoniki</h1>
+            <div className="body-text">
+            <p>
+            Zestaw trzech pierników w pudełku.
+                </p>
+                <p>
+                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                </p>
+                <p>
+                Produkt w całości jadalny.
+                </p>
+                <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
+                <p>Pudełko 22 x 15 cm</p>
+                <p>Cena 49 zł</p>
+                
+               
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
         
       <div
         className={expandedFirst ? "card" : "card expanded"}
@@ -155,7 +194,7 @@ function Cards1(props) {
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/2021/walentynki.jpg" alt="" width="300px" />
+        <img src="/images/2021/walentynkiwpudelku.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Zestaw Walentynki w pudełku</h1>
@@ -267,7 +306,7 @@ function Cards1(props) {
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
-        <img src="/images/2021/diamenoweserce.jpg" alt="" width="300px" />
+        <img src="/images/2021/diamentoweserce.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
           <h1 className="title">Diamentowe Serce</h1>
@@ -303,7 +342,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      {/* <div
+      <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
@@ -460,8 +499,8 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div> */}
-      {/* <div
+      </div>
+      <div
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
@@ -635,7 +674,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div> */}
+      </div>
       {/* <div
         className={expandedFifth ? "card" : "card expanded"}
         onClick={toggleFifth}

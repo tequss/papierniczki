@@ -7,15 +7,15 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Walentynki',
+        title: 'Wielkanoc',
         url: 'section2',
         cName: 'nav-links'
     },
-    // {
-    //     title: 'Portfolio',
-    //     url: 'section3',
-    //     cName: 'nav-links'
-    // },
+    {
+        title: 'Stała Oferta',
+        url: 'section6',
+        cName: 'nav-links'
+    },
     {
         title: 'Jak zamówić?',
         url: 'section4',

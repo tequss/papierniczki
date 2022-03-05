@@ -15,7 +15,9 @@ class Wysylka extends Component {
         </div>
         <div className="paintings-text">
         <h4 style={{ color: "#CD999D" }}>Odbiór</h4>
-<p>Odbiór osobisty możliwy jest w Łodzi po wcześniejszym uzgodnieniu terminu.</p>
+<p>Odbiory osobiste zamówień wielkanocnych - Gorzkowice 14.04, Łodź 13.04 </p>
+
+<p>Zamówienia złożone do 21.03 będą wysłane 28-29.03, późniejsze 11-12.04. Zamówienia przyjmujemy do wyczerpania naszym możliwości przerobowych.</p>
 {/* <p>
 <b>Odbiór osobisty zamówień świątecznych będzie realizowany w Łodzi - 18 grudnia, w Gorzkowicach - 20 grudnia.</b></p> */}
 
