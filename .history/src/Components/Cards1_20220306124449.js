@@ -94,7 +94,7 @@ function Cards1(props) {
                 <p>Pierniczki zapakowane są w celofanowy wyreczek z kokardką</p>
 
                 
-                <p>Wysokość pierniczków 8 cm</p>
+                <p></p>
                 <p>Cena 39 zł</p>
             </div>
           </div>
@@ -168,7 +168,7 @@ function Cards1(props) {
                 </p>
                 <p>Pierniczki zapakowane są w celofanowy woreczek z kokardką</p>
                 <p>
-                Wysokość pierniczków 7 cm
+                
                 </p>
                 <p>
                 Cena 39 zł 

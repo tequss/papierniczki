@@ -17,7 +17,7 @@ class Wysylka extends Component {
         <h4 style={{ color: "#CD999D" }}>Odbiór</h4>
 <p>Odbiory osobiste zamówień wielkanocnych - Gorzkowice 14.04, Łodź 13.04 </p>
 
-<p><b>Zamówienia przyjmujemy do wyczerpania naszych możliwości przerobowych.</b></p>
+<p><b>Zamówienia złożone do 21.03 będą wysłane 28-29.03, późniejsze 11-12.04. Zamówienia przyjmujemy do wyczerpania naszych możliwości przerobowych.</b></p>
 {/* <p>
 <b>Odbiór osobisty zamówień świątecznych będzie realizowany w Łodzi - 18 grudnia, w Gorzkowicach - 20 grudnia.</b></p> */}
 
