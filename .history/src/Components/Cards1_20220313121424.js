@@ -361,7 +361,7 @@ function Cards1(props) {
                 Produkt w całości jadalny.
                 </p>
                 <p>wielkość 9 x 9,5 cm</p>
-                <p>Cena 17 zł za sztukę</p>
+                <p>Cena 17 zł</p>
                 
                
             </div>
