@@ -14,8 +14,9 @@ class Orders extends Component {
 
 <p>1. Zajrzyj do naszej aktualnej oferty.</p>
 <p>2. Wybierz co chcesz zamówić i w jakiej ilości.</p>
-<p>3. Napisz do nas w wiadomości na FB i złóż zamówienie.</p>
-<p>4. Zamówienia płatne są z góry, przelewem na konto. Jeśli chcesz wystawimy fakturę.</p>
+<p>3. Wybierz datę i formę dostawy.</p>
+<p>4. Napisz do nas w wiadomości na FB / IG i złóż zamówienie.</p>
+<p>5. Zamówienia płatne są z góry, przelewem na konto. Jeśli chcesz wystawimy fakturę.</p>
         </div>
         {/* <div className="paintings-text">
         <h4 style={{ color: "#CD999D" }}>Portrety</h4>
