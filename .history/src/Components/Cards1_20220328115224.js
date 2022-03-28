@@ -85,17 +85,17 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/2021/kobieta.jpg" alt="" width="300px" />
+        <img src="/images/2021/ferajna.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Dla Niej</h1>
+          <h1 className="title">Wielkanocna Ferajna</h1>
             <div className="body-text">
-                <p>Aromatyczny, miodowo-maślany piernik dla wyjątkowej kobiety<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
-                <p>Pierniczk dodatkowo zapakowany jest w celofanowy woreczek</p>
+                <p>Zestaw 4 miodowo-maślanych pierniczków<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
+                <p>Pierniczki zapakowane są w celofanowy wyreczek z kokardką</p>
 
                 
-                <p>Pudełko 15 x 15 cm</p>
-                <p>Cena 35 zł</p>
+                <p>Wysokość pierniczków 8 cm</p>
+                <p>Cena 39 zł</p>
             </div>
           </div>
         </div>
@@ -113,17 +113,17 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      {/* <div
+      <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/2021/sloniki.jpg" alt="" width="300px" />
+        <img src="/images/2021/minikroliczkiwpudelku.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zakochane Słoniki</h1>
+          <h1 className="title">Mini zajączki w pudełku</h1>
             <div className="body-text">
             <p>
-            Zestaw trzech pierników w pudełku.
+            Zestaw 6 miodowo-maślanych pierniczków w pudełku.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
@@ -132,7 +132,7 @@ function Cards1(props) {
                 Produkt w całości jadalny.
                 </p>
                 <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
-                <p>Pudełko 22 x 15 cm</p>
+                <p>Pudełko 12 x 28 cm</p>
                 <p>Cena 49 zł</p>
                 
                
@@ -158,20 +158,20 @@ function Cards1(props) {
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/2021/serca.jpg" alt="" width="300px" />
+        <img src="/images/2021/minikroliczki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Serca</h1>
+          <h1 className="title">Mini zajączki</h1>
             <div className="body-text">
             <p>
-            Zestaw trzech pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+            Zestaw 6 miodowo-maślanych pierników.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
                 </p>
-                <p>Pierniczki zapakowane są dodatkowo w celofanowy woreczek</p>
+                <p>Pierniczki zapakowane są w celofanowy woreczek z kokardką</p>
                 <p>
-                Pudełko 24 x 17 cm
+                Wysokość pierniczków 7 cm
                 </p>
                 <p>
-                Cena 55 zł 
+                Cena 39 zł 
                 </p>
             </div>
           </div>
@@ -194,17 +194,17 @@ function Cards1(props) {
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
-        <img src="/images/2021/walentynkiwpudelku.jpg" alt="" width="300px" />
+        <img src="/images/2021/kury.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Walentynki w pudełku</h1>
+          <h1 className="title">Pijane Kury</h1>
             <div className="body-text">
             <p>
-            Zestaw czterech pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+            Zestaw 3 miodowo-maślanych pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. Lukier zawiera kakao.
                 </p>
                 <p>Pierniczki zapakowane są dodatkowo w celofanowy woreczek.</p>
                 <p>
-                Pudełko 28 x 12 cm
+                Pudełko 15 x 22 cm
                 </p>
                 <p>
                 Cena 49 zł
@@ -230,25 +230,25 @@ function Cards1(props) {
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
-        <img src="/images/2021/diamentowewpudelku.jpg" alt="" width="300px" />
+        <img src="/images/2021/zakochanekroliczki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Diamentowe Serce w pudełku</h1>
+          <h1 className="title">Zakochane Króliczki</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik w dla ukochanej/go.
+            Zestaw 2 duych miodowo-maślanych pierników.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim i jadalnym złotem.
+                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
                 </p>
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>Piernik dodatkowo zapakowany w celofanowy woreczek.</p>
+                <p>Pierniki dodatkowo zapakowany w celofanowy woreczek.</p>
                
-                <p>Pudełko 15 x 15 cm</p>
+                <p>Pudełko 17 x 24 cm</p>
                 <p>
-                Cena 35 zł
+                Cena 49 zł
                 </p>
                 
             </div>
@@ -272,19 +272,19 @@ function Cards1(props) {
         className={expandedFifteenth ? "card" : "card expanded"}
         onClick={toggleFifteenth}
       >
-        <img src="/images/2021/walentynki.jpg" alt="" width="300px" />
+        <img src="/images/2021/pankrolik.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Walentynki</h1>
+          <h1 className="title">Pan Królik lub Pani Królik</h1>
             <div className="body-text">
             <p>
-            Zestaw 4 aromatycznych pierników<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. 
+            Aromatyczny, miodowo-maślany piernik w kształcie króliczka.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. 
                 </p>
-                <p>Pierniki zapakowane są w celofanowy woreczek z kokardką.</p>
+                <p>Piernik zapakowany jest w celofanowy woreczek z kokardką.</p>
                 <p>
-                Wielkość 9 x 25 cm
+                Wielkość 12 x 7,5 cm
                 </p>
-                <p>Cena 39 zł</p>
+                <p>Cena 22 zł za sztukę</p>
             </div>
           </div>
         </div>
@@ -302,17 +302,17 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
-        <img src="/images/2021/diamentoweserce.jpg" alt="" width="300px" />
+        <img src="/images/2021/pisanki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Diamentowe Serce</h1>
+          <h1 className="title">Pisanki w pudełku</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla ukochanej/go.
+            Zestaw dwóch miodowo-maślanych pierniczków.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim i jadalnym złotem.
@@ -320,9 +320,9 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>Piernik zapakowany w celofanowy woreczek z kokardką.</p>
-                <p>Wielkość 10,5 x 10 cm</p>
-                <p>Cena 25 zł</p>
+                <p>Pierniki dodatkow zapakowane są w celofanowy woreczek.</p>
+                <p>Pudełko 15 x 22 cm</p>
+                <p>Cena 35 zł</p>
                 
                 
             </div>
@@ -342,17 +342,17 @@ function Cards1(props) {
           />
         </svg>
       </div> */}
-      {/* <div
+      <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/2021/dladziadka.jpg" alt="" width="300px" />
+        <img src="/images/2021/kurczaczek.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Dla dziadka</h1>
+          <h1 className="title">Pierzasty kurczaczek</h1>
             <div className="body-text">
             <p>
-            Zestaw 2 pierników w pudełku.
+            Personalizowany, miodowo-maślanyh piernik z imieniem.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
@@ -360,8 +360,8 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>Pudełko 22 x 15 cm</p>
-                <p>Cena 45 zł</p>
+                <p>wielkość 9 x 9,5 cm</p>
+                <p>Cena 17 zł za sztukę</p>
                 
                
             </div>
@@ -381,17 +381,17 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedFourteenth ? "card" : "card expanded"}
         onClick={toggleFourteenth}
       >
-        <img src="/images/2021/dziadkom.jpg" alt="" width="300px" />
+        <img src="/images/2021/kroliczelapki.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanym Dziadkom</h1>
+          <h1 className="title">Królicze Łapki</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanych Dziadków.
+            Dwa miodowo-maślane pierniczki zapakowane w celofanowy woreczek z kokardką.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
@@ -399,9 +399,9 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
+                <p>Wielkość pierniczka 7,5 x 7 cm</p>
                 <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
+                Cena 17 zł
                 </p>
                 
                 
@@ -421,18 +421,18 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
-        <div
+      </div> */}
+        {/* <div
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
       >
-        <img src="/images/2021/babci.jpg" alt="" width="300px" />
+        <img src="/images/2021/jajeczka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Kochanej Babci</h1>
+          <h1 className="title">Mini jajeczka</h1>
             <div className="body-text">
             <p>
-            Aromatyczny piernik dla kochanej Babci.
+            Zestaw 12 malutkich miodowo-maślanych pierniczków.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
@@ -440,9 +440,9 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>W pudełku 15 x 15cm - 28 zł</p>
+                <p>Pierniczki zapakowane są w celofanowy woreczek z kokardką </p>
                 <p>
-                Cena bez pudełka, w celofanowym woreczku z kokardką - 18 zł
+                Cena 29 zł
                 </p>
             </div>
           </div>
@@ -460,8 +460,8 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
-      <div
+      </div> */}
+      {/* <div
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
@@ -499,8 +499,8 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div> */}
-      {/* <div
+      </div>
+      <div
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >

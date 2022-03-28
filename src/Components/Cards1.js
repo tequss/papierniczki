@@ -302,7 +302,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
       >
@@ -341,7 +341,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
@@ -381,7 +381,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedFourteenth ? "card" : "card expanded"}
         onClick={toggleFourteenth}
       >
@@ -421,8 +421,8 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
-        <div
+      </div> */}
+        {/* <div
         className={expandedTwelfth ? "card" : "card expanded"}
         onClick={toggleTwelfth}
       >
@@ -460,7 +460,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       {/* <div
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
