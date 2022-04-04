@@ -10,7 +10,7 @@ function Cards() {
       <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia przyjmujemy do 4.04. Wysyłki będą realizowane 11-12.04.</p>
+      <p>Zamówienia przyjmujemy do 5.04 włącznie. Wysyłki będą realizowane 11-12.04.</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">
