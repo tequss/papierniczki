@@ -43,7 +43,7 @@ function OfferCards(props) {
       
     <div className="cards">
         <Zoom>
-        <div
+        {/* <div
         className={expandedSixth ? "card" : "card expanded"}
         onClick={toggleSixth}
       >
@@ -193,7 +193,7 @@ function OfferCards(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
@@ -231,7 +231,7 @@ function OfferCards(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
@@ -305,7 +305,7 @@ function OfferCards(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       
       </Zoom>
     </div>
