@@ -198,13 +198,13 @@ function OfferCards(props) {
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/2022/stalaoferta/komunia.jpg" alt="" width="300px" />
+        <img src="/images/2022/stalaoferta/komunia2.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw na Komunię</h1>
+          <h1 className="title">Komunia / Chrzest</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
+            Zestaw 4 personalizowanych miodowo-maślanych pierników w pudełku z ozdobną wstążką. 
                 </p>
                 <p>
                 Zdobienia wykonane są ręcznie lukrem królewskim. Produkt jest w całości jadalny.
@@ -212,8 +212,8 @@ function OfferCards(props) {
                 <p>
                 Pierniki dodatkowo zapakowane są w celofanowe woreczki.
                 </p>
-                <p>Pudełko 21 x 21 cm</p>
-                <span><strong>Cena 89 zł</strong></span>
+                <p>Pudełko 15 x 22 cm</p>
+                <span><strong>Cena 69 zł</strong></span>
             </div>
           </div>
         </div>
