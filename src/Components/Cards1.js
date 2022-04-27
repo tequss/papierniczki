@@ -85,17 +85,16 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/2021/ferajna.jpg" alt="" width="300px" />
+        <img src="/images/2021/mamaserce.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Wielkanocna Ferajna</h1>
+          <h1 className="title">Serce Mama</h1>
             <div className="body-text">
-                <p>Zestaw 4 miodowo-maślanych pierniczków<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
-                <p>Pierniczki zapakowane są w celofanowy wyreczek z kokardką</p>
+                <p>Miodowo-maślany piernik w kształcie serca.<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
+                <p>Piernik dodatkowo zapakowany jest w celofanowy woreczek.</p>
 
-                
-                <p>Wysokość pierniczków 8 cm</p>
-                <p>Cena 39 zł</p>
+                <p>Pudełko 15 x 15 cm</p>
+                <p>Cena 29 zł</p>
             </div>
           </div>
         </div>
@@ -117,13 +116,13 @@ function Cards1(props) {
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/2021/minikroliczkiwpudelku.jpg" alt="" width="300px" />
+        <img src="/images/2021/mama.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Mini zajączki w pudełku</h1>
+          <h1 className="title">Zestaw MAMA</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierniczków w pudełku.
+            Zestaw 4 miodowo-maślanych pierników w pudełku.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
@@ -132,8 +131,8 @@ function Cards1(props) {
                 Produkt w całości jadalny.
                 </p>
                 <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
-                <p>Pudełko 12 x 28 cm</p>
-                <p>Cena 49 zł</p>
+                <p>Pudełko 21 x 21 cm</p>
+                <p>Cena 79 zł</p>
                 
                
             </div>
@@ -154,7 +153,7 @@ function Cards1(props) {
         </svg>
       </div>
         
-      <div
+      {/* <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
@@ -301,7 +300,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       {/* <div
         className={expandedSixteenth ? "card" : "card expanded"}
         onClick={toggleSixteenth}
@@ -342,7 +341,7 @@ function Cards1(props) {
           />
         </svg>
       </div> */}
-      <div
+      {/* <div
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
@@ -380,7 +379,7 @@ function Cards1(props) {
             stroke-width="5"
           />
         </svg>
-      </div>
+      </div> */}
       {/* <div
         className={expandedFourteenth ? "card" : "card expanded"}
         onClick={toggleFourteenth}

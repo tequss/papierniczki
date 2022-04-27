@@ -7,7 +7,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Wielkanoc',
+        title: 'Dzień Mamy',
         url: 'section2',
         cName: 'nav-links'
     },
