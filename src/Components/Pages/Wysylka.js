@@ -11,7 +11,7 @@ class Wysylka extends Component {
         <div className="aboutorders">
         <div className="cookies-text">
         <h4 style={{ color: "#CD999D" }}>Wysyłka</h4>
-        <p>Paczki wysyłamy za pośrednictwem kuriera lub paczkomatu. Koszt wysyłki to 20 zł niezależnie od wielkości paczki.</p> <p><b>Wysyłki będą realizowane 11-12.04.</b> </p>
+        <p>Paczki wysyłamy za pośrednictwem kuriera lub paczkomatu. Koszt wysyłki to 20 zł niezależnie od wielkości paczki.</p> <p><b>Wysyłki będą realizowane 16 maja.</b> </p>
         </div>
         <div className="paintings-text">
         {/* <h4 style={{ color: "#CD999D" }}>Odbiór</h4>
