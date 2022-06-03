@@ -6,11 +6,11 @@ import Cards1 from "../Cards1";
 function Cards() {
   return (
     <div className="offer-container">
-      <h2 style={{ color: "#434343" }}>Dzień Mamy</h2>
+      <h2 style={{ color: "#434343" }}>Dzień Taty / Koniec Roku</h2>
       <h3>Uwaga!</h3>
       <div className="allert">
       
-      <p>Zamówienia przyjmujemy do 20.05 włącznie. Wysyłki będą realizowane do 22.05</p>
+      <p>Zamówienia przyjmujemy do 16.06 włącznie. Wysyłki będą realizowane 20.06</p>
       </div>
       <Cards1/>
       {/* <div className="flip-boxes">

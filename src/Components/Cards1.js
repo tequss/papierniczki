@@ -85,16 +85,16 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/2021/mamaserce.jpg" alt="" width="300px" />
+        <img src="/images/2021/dzientaty.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Serce Mama</h1>
+          <h1 className="title">Zestaw Super Tata</h1>
             <div className="body-text">
-                <p>Miodowo-maślany piernik w kształcie serca.<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
-                <p>Piernik dodatkowo zapakowany jest w celofanowy woreczek.</p>
+                <p>Zestaw dwóch miodowo-maślanych piernikówa zapakowanych w ozdobne brązowe pudełko z granatową kokardką.<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
+                <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
 
-                <p>Pudełko 15 x 15 cm</p>
-                <p>Cena 29 zł</p>
+                <p>Pudełko 15 x 22 cm</p>
+                <p>Cena 59 zł</p>
             </div>
           </div>
         </div>
@@ -116,23 +116,23 @@ function Cards1(props) {
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/2021/mama.jpg" alt="" width="300px" />
+        <img src="/images/2021/zestawszkola.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw MAMA</h1>
+          <h1 className="title">Zestaw na zakończenie roku </h1>
             <div className="body-text">
             <p>
-            Zestaw 4 miodowo-maślanych pierników w pudełku.
+            Zestaw dwóch miodowo-maślanych pierników zapakowanych w ozdobne białe pudełko z pomaranczową kokardką.
                 </p>
                 <p>
-                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.
+                Wszystkie zdobienia wykonane są ręcznie lukrem królewskim i jadalnym srebrem.
                 </p>
                 <p>
                 Produkt w całości jadalny.
                 </p>
                 <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
-                <p>Pudełko 21 x 21 cm</p>
-                <p>Cena 79 zł</p>
+                <p>Pudełko 15 x 15 cm</p>
+                <p>Cena 55 zł</p>
                 
                
             </div>
@@ -153,24 +153,24 @@ function Cards1(props) {
         </svg>
       </div>
         
-      {/* <div
+      <div
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/2021/minikroliczki.jpg" alt="" width="300px" />
+        <img src="/images/2021/szkola.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Mini zajączki</h1>
+          <h1 className="title">Serce na zakończenie roku</h1>
             <div className="body-text">
             <p>
-            Zestaw 6 miodowo-maślanych pierników.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+            Miodowo-maślane serce z napisem dziękuję.<br />Zdobienia wykonane są ręcznie lukrem królewskim i jadalnym srebrem.<br />Produkt w całości jadalny.
                 </p>
-                <p>Pierniczki zapakowane są w celofanowy woreczek z kokardką</p>
+                <p>Piernik zapakowany w celofanowy woreczek z pomaranczową kokardką </p>
                 <p>
-                Wysokość pierniczków 7 cm
+                Wielkość 9 x 7 cm
                 </p>
                 <p>
-                Cena 39 zł 
+                Cena 25 zł / sztuka
                 </p>
             </div>
           </div>
@@ -189,7 +189,7 @@ function Cards1(props) {
           />
         </svg>
       </div>
-      <div
+      {/* <div
         className={expandedSecond ? "card" : "card expanded"}
         onClick={toggleSecond}
       >
