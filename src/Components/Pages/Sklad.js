@@ -11,7 +11,8 @@ class Sklad extends Component {
         <div className="aboutorders">
         <div className="cookies-text">
         <h4 style={{ color: "#CD999D" }}>Skład</h4>
-        <p><b>Piernik:</b> mąka pszenna, miód pszczeli, masło 82%, cukier trzcinowy , żółtko jaja w proszku pasteryzowane, soda oczyszczona. </p>
+        <p><b>Miodownik:</b> mąka pszenna, miód pszczeli, masło 82%, cukier trzcinowy, żółtko jaja w proszku pasteryzowane, soda oczyszczona. </p>
+        <p><b>Piernik:</b> mąka pszenna, miód pszczeli, masło 82%, cukier trzcinowy, żółtko jaja w proszku pasteryzowane, przyprawa do piernika, kakao, soda oczyszczona. </p>
         <p><b>Lukier:</b> cukier puder, woda, albumina (białko kurze w proszku pasteryzowane), sok z cytryny, kakao, barwniki spożywcze.
 </p>
         </div>

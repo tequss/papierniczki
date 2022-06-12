@@ -7,7 +7,7 @@ function Offer() {
     <div className="offer-container">
       <h2 style={{ color: "#434343" }}>Stała oferta</h2>
       <div className="allert">
-      <p>Czas realizacji to 3-10 dni roboczych.</p>
+      <p>Czas realizacji to 5-10 dni roboczych.</p>
       </div>
       <OfferCards/>
       
