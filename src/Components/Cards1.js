@@ -85,16 +85,16 @@ function Cards1(props) {
         className={expandedNinth ? "card" : "card expanded"}
         onClick={toggleNinth}
       >
-        <img src="/images/2021/dzientaty.jpg" alt="" width="300px" />
+        <img src="/images/2021/sowa.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw Super Tata</h1>
+          <h1 className="title">Zewstaw Sowa z sercem</h1>
             <div className="body-text">
-                <p>Zestaw dwóch miodowo-maślanych piernikówa zapakowanych w ozdobne brązowe pudełko z granatową kokardką.<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
+                <p>Zestaw dwóch personalizowanych pierników zapakowanych w ozdobne brązowe pudełko z beżową kokardką.<br />Wszystkie zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. </p>
                 <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
 
                 <p>Pudełko 15 x 22 cm</p>
-                <p>Cena 59 zł</p>
+                <p>Cena 65 zł</p>
             </div>
           </div>
         </div>
@@ -116,13 +116,13 @@ function Cards1(props) {
         className={expandedSeventeenth ? "card" : "card expanded"}
         onClick={toggleSeventeenth}
       >
-        <img src="/images/2021/zestawszkola.jpg" alt="" width="300px" />
+        <img src="/images/2021/kaktusik.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Zestaw na zakończenie roku </h1>
+          <h1 className="title">Kaktus </h1>
             <div className="body-text">
             <p>
-            Zestaw dwóch miodowo-maślanych pierników zapakowanych w ozdobne białe pudełko z pomaranczową kokardką.
+            Aromatyczny paeronalizowany piernik zapakowany w celofanowy woreczek przewiązany kremową kokardką.
                 </p>
                 <p>
                 Wszystkie zdobienia wykonane są ręcznie lukrem królewskim i jadalnym srebrem.
@@ -130,9 +130,8 @@ function Cards1(props) {
                 <p>
                 Produkt w całości jadalny.
                 </p>
-                <p>Pierniki dodatkowo zapakowane są w celofanowy woreczek.</p>
-                <p>Pudełko 15 x 15 cm</p>
-                <p>Cena 55 zł</p>
+                <p>Wielkość 10 x 7 cm cm</p>
+                <p>Cena 20 zł / sztuka</p>
                 
                
             </div>
@@ -157,56 +156,19 @@ function Cards1(props) {
         className={expandedFirst ? "card" : "card expanded"}
         onClick={toggleFirst}
       >
-        <img src="/images/2021/szkola.jpg" alt="" width="300px" />
+        <img src="/images/2021/ksiazka.jpg" alt="" width="300px" />
         <div className="text1">
           <div className="text-content">
-          <h1 className="title">Serce na zakończenie roku</h1>
+          <h1 className="title">Książka</h1>
             <div className="body-text">
             <p>
-            Miodowo-maślane serce z napisem dziękuję.<br />Zdobienia wykonane są ręcznie lukrem królewskim i jadalnym srebrem.<br />Produkt w całości jadalny.
-                </p>
-                <p>Piernik zapakowany w celofanowy woreczek z pomaranczową kokardką </p>
+            Aromatyczny personalizowany piernik zapakowany w celofanowy woreczek przewiązany żółtą kokardką..<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+                </p> 
                 <p>
-                Wielkość 9 x 7 cm
-                </p>
-                <p>
-                Cena 25 zł / sztuka
-                </p>
-            </div>
-          </div>
-        </div>
-        <svg
-          className="chevron"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 100 35"
-          width="30"
-        >
-          <path
-            d="M5 30L50 5l45 25"
-            fill="none"
-            stroke="#000"
-            stroke-width="5"
-          />
-        </svg>
-      </div>
-      {/* <div
-        className={expandedSecond ? "card" : "card expanded"}
-        onClick={toggleSecond}
-      >
-        <img src="/images/2021/kury.jpg" alt="" width="300px" />
-        <div className="text1">
-          <div className="text-content">
-          <h1 className="title">Pijane Kury</h1>
-            <div className="body-text">
-            <p>
-            Zestaw 3 miodowo-maślanych pierników w pudełku.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny. Lukier zawiera kakao.
-                </p>
-                <p>Pierniczki zapakowane są dodatkowo w celofanowy woreczek.</p>
-                <p>
-                Pudełko 15 x 22 cm
+                Wielkość 9,5 x 7 cm
                 </p>
                 <p>
-                Cena 49 zł
+                Cena 20 zł / sztuka
                 </p>
             </div>
           </div>
@@ -226,6 +188,41 @@ function Cards1(props) {
         </svg>
       </div>
       <div
+        className={expandedSecond ? "card" : "card expanded"}
+        onClick={toggleSecond}
+      >
+        <img src="/images/2021/zestawsowa.jpg" alt="" width="300px" />
+        <div className="text1">
+          <div className="text-content">
+          <h1 className="title">Zestaw Nauczyciela</h1>
+            <div className="body-text">
+            <p>
+            Zestaw 3 pierników zapakowanych w celofanowy woreczek przewiązany beżową kokardką.<br />Zdobienia wykonane są ręcznie lukrem królewskim.<br />Produkt w całości jadalny.
+                </p>
+                <p>
+                Wielkość pierniczków 6 x 6 cm
+                </p>
+                <p>
+                Cena 39 zł / zestaw 
+                </p>
+            </div>
+          </div>
+        </div>
+        <svg
+          className="chevron"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 35"
+          width="30"
+        >
+          <path
+            d="M5 30L50 5l45 25"
+            fill="none"
+            stroke="#000"
+            stroke-width="5"
+          />
+        </svg>
+      </div>
+      {/* <div
         className={expandedThirteenth ? "card" : "card expanded"}
         onClick={toggleThirteenth}
       >
