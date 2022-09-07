@@ -245,7 +245,7 @@ function OfferCards(props) {
                 </p>
                 <p>Minimalne zamówienie to 15 sztuk.</p>
                 
-                <p><strong>Cena od 10 zł / sztuka</strong></p>
+                <p><strong>Cena 10 - 20 zł / sztuka</strong></p>
             </div>
           </div>
         </div>
@@ -281,7 +281,7 @@ function OfferCards(props) {
                 <p>
                 Minimalne zamówienie to 15 sztuk.
                 </p>
-                <span><strong>Cena od 10 zł / sztuka</strong></span>
+                <span><strong>Cena 10 - 20 zł / sztuka</strong></span>
             </div>
           </div>
         </div>
