@@ -122,11 +122,11 @@
     .navbar-logo {
         position: absolute;
         height: 90px;
-        margin-left: auto;
+        margin-left: 20px;
         margin-right: auto;
         margin-top:10px;
         top:0;
-        left:auto;
+        left:0;
 
     }
 

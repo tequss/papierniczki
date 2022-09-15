@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import "./NavBar.css";
 import { Link } from "react-scroll";
+import { Button } from "./Button";
 
 class Navbar extends Component {
   state = { clicked: false };
@@ -41,6 +42,7 @@ class Navbar extends Component {
             })}
           </ul>
           <div className="Icons"></div>
+          <Button>Sklep Online</Button>
         </nav>
       </>
     );
